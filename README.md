@@ -1,7 +1,7 @@
 # CODE2RACE --- Dive into coding world 
-Let's celebrate HacktoberFest 
+Let's celebrate HacktoberFest 😎
 
-One problem will be given everyday. 
+One problem will be given everyday. 😁
 Solve it and make a PR for the solution
 We will have a look at it and then merge it.
 
@@ -27,4 +27,4 @@ Commit message should be in the form:
 and please sign off your commit using -s flag. Like
 > git commit -m '[Add/Update/Remove] - [Full Name]' -s
 
-That's all, Make A PR, add your name in competitors file and participate in competition.
+That's all, Make A PR, add your name in competitors file and participate in competition.😋

@@ -1,7 +1,7 @@
 # CODE2RACE --- Dive into coding world 
 # Let's celebrate HacktoberFest 😎
 
-One problem will be given everyday. 😁
+One question will be given everyday as an issue. 😁
 
 
 #### Submit your solutions as pull-requests to the *solutions* subdirectory in this repository. 

@@ -28,4 +28,5 @@ and please sign off your commit using -s flag. Like
 > git commit -m '[Add/Update/Remove] - [Full Name]' -s
 
 That's all :smile: , Welcome to CODE2RACE COMPETITION :smile: :tada:
-LET'S CELEBRATE HACKTOBERFEST😎
+
+<B>LET'S CELEBRATE HACKTOBERFEST</B>😎

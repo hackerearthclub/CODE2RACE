@@ -6,7 +6,9 @@ Register yourself to take part in competition.
 
 #### GUIDELINES
 This is the list of participants of <B>CODE2RACE</B>.
+
 Feel free to add youself to the list.
+
 Make a PR and get yourself added to the list.
 
 ##TEMPLATE

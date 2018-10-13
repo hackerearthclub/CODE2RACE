@@ -19,11 +19,11 @@ Print the required answer for each test case.
 2
 3
 10
----
+```
 
 #### Sample Output 0
 ```
 22
 2640
+```
 
----

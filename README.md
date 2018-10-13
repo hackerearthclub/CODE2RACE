@@ -14,3 +14,7 @@ Guidelines
 ==========
 
 Make a PR for the solution to the question, specify the issue number in comment.
+<br><br>
+Join the Gitter room for regular notifications <br>
+https://gitter.im/bvphec/Lobby
+

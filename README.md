@@ -1,5 +1,7 @@
 # CODE2RACE --- Dive into coding world 
 # Let's celebrate HacktoberFest 😎
+Register for the hacktober fest https://hacktoberfest.digitalocean.com/
+
 
 One question will be given everyday as an issue. 😁
 Access the problem statement in assignment subdirectory.

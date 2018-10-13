@@ -3,7 +3,7 @@
 Register for the hacktober fest https://hacktoberfest.digitalocean.com/
 
 
-One question will be given everyday as an issue. 😁
+ Questions will be given as an issue. 😁
 Access the problem statement in assignment subdirectory.
 
 

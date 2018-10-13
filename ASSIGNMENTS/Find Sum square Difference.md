@@ -11,6 +11,7 @@ Print the required answer for each test case.
 
 #### CONSTRAINTS
 1≤ T ≤ 10^4
+
 1≤ N ≤ 10^4
 
 #### Sample Input 0

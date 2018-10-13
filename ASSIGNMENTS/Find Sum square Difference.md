@@ -14,14 +14,14 @@ Print the required answer for each test case.
 
 1≤ N ≤ 10^4
 
-#### Sample Input 0
+#### Sample Input 
 ```
 2
 3
 10
 ```
 
-#### Sample Output 0
+#### Sample Output 
 ```
 22
 2640

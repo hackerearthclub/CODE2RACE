@@ -7,3 +7,7 @@ Member List
 ### Doan Ngoc Huan
 - [dnhuan](https://github.com/dnhuan)
 ---
+
+#### Alvaro Tinoco
+- [MrMarble](https://github.com/MrMarble)
+---

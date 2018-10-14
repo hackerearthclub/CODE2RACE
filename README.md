@@ -19,7 +19,7 @@ Guidelines
 Make a PR for the solution to the question, specify the issue number in comment.
 <br><br>
 
-#### IF YOU LIKE US, GIVE THIS REPOSITORY A ⭐.
+## IF YOU LIKE US, GIVE THIS REPOSITORY A ⭐.
 #### Join the Gitter discussion room  <br>
 https://gitter.im/bvphec/Lobby
 

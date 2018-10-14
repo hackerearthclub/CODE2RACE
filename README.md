@@ -17,6 +17,8 @@ Guidelines
 
 Make a PR for the solution to the question, specify the issue number in comment.
 <br><br>
-Join the Gitter discussion room  <br>
+
+#### IF YOU LIKE US, GIVE THIS REPOSITORY A ⭐.
+#### Join the Gitter discussion room  <br>
 https://gitter.im/bvphec/Lobby
 

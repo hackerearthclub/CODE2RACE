@@ -10,7 +10,7 @@ First line contains <b>T</b> that denotes the number of test cases. This is foll
 Print the required answer for each test case.
 
 #### CONSTRAINTS
-1≤ T ≤ 10^%
+1≤ T ≤ 10^5
 
 10≤ N ≤ 4*10^16
 

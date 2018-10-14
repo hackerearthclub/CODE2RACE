@@ -9,7 +9,7 @@ Any code in any language that makes you stand out and is worth innovative⭐⭐
 #### Submit solution for this challenge in "open challenge" repository
 ⭐
 
-#### Questions will be given as an issue. 😁
+## Questions will be given as an issue. 😁
 Access the problem statement in assignment subdirectory.
 
 

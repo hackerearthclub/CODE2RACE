@@ -5,7 +5,8 @@ Register for the hacktober fest https://hacktoberfest.digitalocean.com/
 ⭐
 ## OPEN CHALLENGE - 
 Any code in any language that makes you stand out and is worth innovative⭐⭐
-<b>Submit solution for this challenge in "open challenge" repository.</b>
+
+#### Submit solution for this challenge in "open challenge" repository
 ⭐
 
 #### Questions will be given as an issue. 😁

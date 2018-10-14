@@ -1,18 +1,29 @@
-iimport java.util.stream.IntStream;
+import java.util.stream.IntStream;
 
-class Solution {
+public class SumSquareDifference {
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
-        int T=Integer.parseInt(reader.readLine());
-        while(T-->0){
-            int i=Integer.parseInt(reader.readLine());
-            System.out.println(
-                    Math.abs(IntStream.rangeClosed(1,i)
-                            .map(p->(int)Math.pow(p, 2)).sum()
-                            -(int)Math.pow(IntStream.rangeClosed(1,i).sum(),2)));
-            
-        }
-    }
+ private static final Scanner scanner = new Scanner(System.in);
+
+        public static void main(String[] args) {
+
+            String total = scanner.nextLine();
+
+            int n = Integer.parseInt(total);
+
+            for (int i = 0; i < n; i++) 
+            {
+                String next = scanner.nextLine();
+                int number = Integer.parseInt(next);
+                int squareSum = 0;
+                int sum = 0;
+                for (int j = 1; j <= number; j++) {
+                    squareSum = squareSum + j * j;
+                    sum = sum + j;
+                }
+                int sumSquare = sum * sum;
+                int difference = squareSum - sumSquare;
+                System.out.println(String.valueOf(difference > 0 ? difference : -difference));
+            }
+            scanner.close();
+
 }
-

@@ -2,6 +2,10 @@
 # Let's celebrate HacktoberFest 😎
 Register for the hacktober fest https://hacktoberfest.digitalocean.com/
 
+#### OPEN CHALLENGE - 
+Any code in any language that makes you stand out and is worth innovative⭐⭐
+## Submit solution for this challenge in "open challenge" repository.
+
 
  Questions will be given as an issue. 😁
 Access the problem statement in assignment subdirectory.
@@ -23,3 +27,4 @@ Make a PR for the solution to the question, specify the issue number in comment.
 #### Join the Gitter discussion room  <br>
 https://gitter.im/bvphec/Lobby
 
+## NOTE - Only valid PR's related to issues will be merged.

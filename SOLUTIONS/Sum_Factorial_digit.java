@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.math.*;
 
 public class Sum_Factorial_digit {
     public static void main(String[] args) {

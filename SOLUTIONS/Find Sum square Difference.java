@@ -1,25 +1,18 @@
-import java.util.Scanner;
+iimport java.util.stream.IntStream;
 
-public class Solution {
+class Solution {
 
-    private static final Scanner scanner = new Scanner(System.in);
-
-    public static void main(String[] args) {
-        String total = scanner.nextLine();
-        int n = Integer.parseInt(total);
-        for (int i = 0; i < n; i++) {
-            String next = scanner.nextLine();
-            int number = Integer.parseInt(next);
-            int squareSum = 0;
-            int sum = 0;
-            for (int j = 1; j <= number; j++) {
-                squareSum = squareSum + j * j;
-                sum = sum + j;
-            }
-            int sumSquare = sum * sum;
-            int dif = squareSum - sumSquare;
-            System.out.println(String.valueOf(dif > 0 ? dif : -dif));
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
+        int T=Integer.parseInt(reader.readLine());
+        while(T-->0){
+            int i=Integer.parseInt(reader.readLine());
+            System.out.println(
+                    Math.abs(IntStream.rangeClosed(1,i)
+                            .map(p->(int)Math.pow(p, 2)).sum()
+                            -(int)Math.pow(IntStream.rangeClosed(1,i).sum(),2)));
+            
         }
-        scanner.close();
     }
 }
+

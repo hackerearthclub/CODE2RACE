@@ -1,6 +1,6 @@
 # using the orderedDict lib
 from collections import OrderedDict
-dict = {'Afghanistan': 93, 'Albania': 355, 'Algeria': 213, 'Andorra': 376, 'Angola': 244}
+dict = {'Abuja': 93, 'Abia': 355, 'Akwaibom': 213, 'Anambara': 376, 'Alaska': 244}
 new_dict = OrderedDict(dict.items())
 
 print("\nIn normal order:")

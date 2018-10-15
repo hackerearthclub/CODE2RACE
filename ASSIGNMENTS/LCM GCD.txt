@@ -1,0 +1,20 @@
+LCM of given array elements
+Given an array of n numbers, find LCM of it.
+
+Input : {1, 2, 8, 3}
+Output : 24
+
+Input : {2, 7, 3, 9, 4}
+Output : 252
+
+
+GCD of more than two (or array) numbers
+Given an array of numbers, find GCD of the array elements. In a previous post we find GCD of two number.
+
+Examples:
+
+Input  : arr[] = {1, 2, 3}
+Output : 1
+
+Input  : arr[] = {2, 4, 6, 8}
+Output : 2

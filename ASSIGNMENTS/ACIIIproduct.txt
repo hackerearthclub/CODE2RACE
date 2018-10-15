@@ -1,0 +1,11 @@
+Program to find the product of ASCII values of characters in a string
+Given a string str. The task is to find the product of ASCII values of characters in the string.
+
+Examples:
+
+Input : str = "IS"
+Output : 6059
+73 * 83 = 6059
+
+Input : str = "GfG"
+Output : 514182

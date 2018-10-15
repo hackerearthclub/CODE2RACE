@@ -11,3 +11,7 @@ Member List
 #### Alvaro Tinoco
 - [MrMarble](https://github.com/MrMarble)
 ---
+
+#### Matteo Veraldi
+- [mattveraldi](https://github.com/mattveraldi)
+---

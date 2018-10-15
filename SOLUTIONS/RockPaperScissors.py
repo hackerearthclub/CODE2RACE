@@ -20,13 +20,13 @@ if __name__ == '__main__':
                 or len(rocks) == count or len(scissors) == count or len(papers) == count:
             print('Draw')
         else:
-
+            print('Winners are players: ',end='')
             if len(rocks) > 0 and len(scissors) > 0:
-                print('Winners are players: ', [names[i] for i in rocks])
+                print([names[i] for i in rocks])
             if len(rocks) > 0 and len(papers) > 0:
-                print('Winners are players: ', [names[i] for i in papers])
+                print([names[i] for i in papers])
             if len(papers) > 0 and len(scissors) > 0:
-                print('Winners are players: ', [names[i] for i in scissors])
+                print([names[i] for i in scissors])
         play_again = int(input('Play again? (1 yes, 0 no):'))
         if not play_again:
             break

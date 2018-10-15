@@ -10,7 +10,6 @@ def roll(inputString):
     if not validity_check:
         return "Invalid argument: {}".format(inputString)
     argument = validity_check.group(1)
-    # message.reply(message.author.username + " rolls "+argument+".")
     sections = argument.split('+')
     all_dice = ""
     total = 0

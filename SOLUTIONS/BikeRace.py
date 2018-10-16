@@ -22,7 +22,6 @@ with open(data) as reader:
                 i += 1
             print(i)
             riders = []
-            continue
     i = 0
     while sum([x[0] for x in riders if x[0] >= L]) < M:
         riders = [[x[0] + x[1], x[1]] for x in riders]

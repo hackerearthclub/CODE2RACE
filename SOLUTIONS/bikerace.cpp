@@ -13,8 +13,7 @@
 #define MAX 1000000007
 #define MAXXIUS 1000003
 using namespace std;
-
-int main(){
+ int main(){
     ll int test,m,n,l,temp,total,hour;
     cin>>test;
     for (int i = 0; i < test; ++i) {
@@ -41,4 +40,4 @@ int main(){
     return 0;
 }
 
-// test case: 1 3 400 120 20 20 50 70 20 90
+ // test case: 1 3 400 120 20 20 50 70 20 90 

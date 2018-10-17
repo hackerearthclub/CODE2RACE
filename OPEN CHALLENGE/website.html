@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>place title here</title>
+    </head>
+    <body id="Body">
+        <input type="button" id="Gohm" value="home" class="topbut"/>
+        <input type="button" id="Gsec1" value="note memory" class="topbut"/>
+        <input type="button" id="Gsec2" value="note files" class="topbut"/>
+        <input type="button" id="Gsec3" value="sec3" class="topbut"/>
+        <input type="button" id="Gsec4" value="sec4" class="topbut"/>
+        <input type="button" id="Gsec5" value="sec5" class="topbut"/>
+        <input type="button" id="Gsec6" value="sec6" class="topbut"/>
+        <input type="button" id="Gsec7" value="sec7" class="topbut"/>
+        <input type="button" id="Gsec8" value="sec8" class="topbut"/>
+        <input type="button" id="Gsec9" value="sec9" class="topbut"/>
+        <input type="button" id="Gsec10" value="sec10" class="topbut"/>
+        <input type="button" id="Gsec11" value="sec11" class="topbut"/>
+        <input type="button" id="Gsec12" value="sec12" class="topbut"/>
+        <input type="button" id="Gsec13" value="sec13" />
+        <input type="image" src="question.png" id="Info" />
+        <input type="button" id="Tfill" />
+        <div id="Home">
+            <p class="cent"></p>
+            </div>
+        <div id="Sec1">
+            <div id="NMmain" >
+            <p> please select all the notes you would like to practice</p>
+            <span>a</span> <input type="checkbox" id="A"/>
+            <br/> 
+            <span>a#</span> <input type="checkbox" id="A#" class="sbox"/>
+            <br/>
+            <span>b</span> <input type="checkbox" id="B"/>
+            <br/>
+            <span>c</span> <input type="checkbox" id="C"/>
+            <br/>
+            <span>c#</span> <input type="checkbox" id="C#" class="sbox"/>
+            <br/>
+            <span>d</span> <input type="checkbox" id="D"/>
+            <br/>
+            <span>d#</span> <input type="checkbox" id="D#" class="sbox"/>
+            <br/>
+            <span>e</span> <input type="checkbox" id="E"/>
+            <br/>
+            <span>f</span> <input type="checkbox" id="F"/>
+            <br/>
+            <span>f#</span> <input type="checkbox" id="F#" class="sbox"/>
+            <br/>
+            <span>g</span> <input type="checkbox" id="G"/>
+            <br/>
+            <span>g#</span> <input type="checkbox" id="G#" class="sbox"/>
+            <br/>
+            <input type="button" id="Nmstartbut" value="start" />
+            <br/>
+            <p>select the number of notes you would like to practice</p>
+            <input type = "text" id="Nmslidenum" value="100">
+            <br/>
+            <input type="range" id="Nmslider" min="0" max="5000" value="100" />
+            <br/>
+            <br/>
+            <span>1 note displayed at a time</span> <input type="checkbox" id="1Nat" />
+            <br/>
+            <div id="Onatex">
+            <p>select the rate of note change (ms)</p>
+            <input type="text" id="Rocnum">
+            <br/>
+            <input type="range" min="1" max="10000" id="Roc" value="2000" />
+            <br/>
+            <span>add noise</span> <input type="checkbox" id="Addnoise"/>
+            <br/> 
+            <span>add chords </span><input type="checkbox" id="Addch" />
+            </div>
+           
+           
+            </div> 
+            <div>
+                <p id="Notes1"></p>
+                <p id="notes2"></p> <p id="Chval"> </p>
+                <div id="Metnm"></div>
+            </div>
+                        
+        </div>
+
+        <div id="Sec2">
+            <p>note audio files</p>
+            <a href="A.mp3">A</a>
+            <br/>
+            <a href="AS.mp3">A#</a>
+            <br/>
+            <a href="B.mp3">B</a>
+            <br/>
+            <a href="C.mp3">C</a>
+            <br/>
+            <a href="CS.mp3">C#</a>
+            <br/>
+            <a href="D.mp3">D</a>
+            <br/>
+            <a href="DS.mp3">DS</a>
+            <br/>
+            <a href="E.mp3">E</a>
+            <br/>
+            <a href="F.mp3">F</a>
+            <br/>
+            <a href="FS.mp3">F#</a>
+            <br/>
+            <a href="G.mp3">G</a>
+            <br/>
+            <a href="GS.mp3">G#</a>
+        </div>
+
+        <div id="Sec3">
+            <p class="cent">place text here3</p>
+        </div>
+
+        <div id="Sec4">
+            <p class="cent">place text here4</p>
+        </div>
+
+        <div id="Sec5">
+            <p class="cent">place text here5</p>
+        </div>
+
+        <div id="Sec6">
+            <p class="cent">place text here6</p>
+        </div>
+
+        <div id="Sec7">
+            <p class="cent">place text here7</p>
+        </div>
+
+        <div id="Sec8">
+            <p class="cent">place text here8</p>
+        </div>
+
+        <div id="Sec9">
+            <p class="cent">place text here9</p>
+        </div>
+
+        <div id="Sec10">
+            <p class="cent">place text here10</p>
+        </div>
+
+        <div id="Sec11">
+            <p class="cent">place text here11</p>
+        </div>
+            
+        <div id="Sec12">
+            <p class="cent">place text here12</p>
+        </div>
+
+        <div id="Sec13">
+            <p class="cent">place text here13</p>
+        </div>
+        <div id="Help">
+            <p class="cent">info text</p>
+        </div>
+        
+        
+    </body>
+    <script>
+        //layout s
+        var home
+        home = get("Home")
+        home.style.display = "none"
+        var sec1
+        sec1 = get("Sec1")
+        sec1.style.display = "none"
+        var sec2
+        sec2 = get("Sec2")
+        sec2.style.display = "none"
+        var sec3
+        sec3 = get("Sec3")
+        sec3.style.display = "none"
+        var sec4
+        sec4 = get("Sec4")
+        sec4.style.display = "none"
+        var sec5
+        sec5 = get("Sec5")
+        sec5.style.display = "none"
+        var sec6
+        sec6 = get("Sec6")
+        sec6.style.display = "none"
+        var sec7
+        sec7 = get("Sec7")
+        sec7.style.display = "none"
+        var sec8
+        sec8 = get("Sec8")
+        sec8.style.display = "none"
+        var sec9
+        sec9 = get("Sec9")
+        sec9.style.display = "none"
+        var sec10
+        sec10 = get("Sec10")
+        sec10.style.display = "none"
+        var sec11
+        sec11 = get("Sec11")
+        sec11.style.display = "none"
+        var sec11
+        sec11 = get("Sec11")
+        sec11.style.display = "none"
+        var sec12
+        sec12 = get("Sec12")
+        sec12.style.display = "none"
+        var sec13
+        sec13 = get("Sec13")
+        sec13.style.display = "none"
+        var gohm
+        gohm = get("Gohm")
+        gohm.addEventListener("click",hpress)
+        var gsec1
+        gsec1 = get("Gsec1")
+        gsec1.addEventListener("click",s1press)
+        var gsec2
+        gsec2 = get("Gsec2")
+        gsec2.addEventListener("click",s2press)
+        var gsec3
+        gsec3 = get("Gsec3")
+        gsec3.addEventListener("click",s3press)
+        var gsec4
+        gsec4 = get("Gsec4")
+        gsec4.addEventListener("click",s4press)
+        var gsec5
+        gsec5 = get("Gsec5")
+        gsec5.addEventListener("click",s5press)
+        var gsec6
+        gsec6 = get("Gsec6")
+        gsec6.addEventListener("click",s6press)
+        var gsec7
+        gsec7 = get("Gsec7")
+        gsec7.addEventListener("click",s7press)
+        var gsec8
+        gsec8 = get("Gsec8")
+        gsec8.addEventListener("click",s8press)
+        var gsec9
+        gsec9 = get("Gsec9")
+        gsec9.addEventListener("click",s9press)
+        var gsec10
+        gsec10 = get("Gsec10")
+        gsec10.addEventListener("click",s10press)
+        var gsec11
+        gsec11 = get("Gsec11")
+        gsec11.addEventListener("click",s11press)
+        var gsec12
+        gsec12 = get("Gsec12")
+        gsec12.addEventListener("click",s12press)
+        var gsec13
+        gsec13 = get("Gsec13")
+        gsec13.addEventListener("click",s13press)
+        var info = get("Info")
+        info.addEventListener("click",infopress)
+        var help
+        help = get("Help")
+        //layout e
+
+        //note memory s
+        var a
+        a = get("A")
+        a.addEventListener("click",asel)
+        var aS
+        aS = get("A#")
+        aS.addEventListener("click",aSsel)
+        var b
+        b = get("B")
+        b.addEventListener("click",bsel)
+        var c
+        c = get("C")
+        c.addEventListener("click",csel)
+        var cS
+        cS = get("C#")
+        cS.addEventListener("click",cSsel)
+        var d
+        d = get("D")
+        d.addEventListener("click",dsel)
+        var dS
+        dS = get("D#")
+        dS.addEventListener("click",dSsel)
+        var e
+        e = get("E")
+        e.addEventListener("click",esel)
+        var f
+        f = get("F")
+        f.addEventListener("click",fsel)
+        var fS
+        fS = get("F#")
+        fS.addEventListener("click",fSsel)
+        var g
+        g = get("G")
+        g.addEventListener("click",gsel)
+        var gS
+        gS = get("G#")
+        gS.addEventListener("click",gSsel)
+        var anum = 0
+        var aSnum = 0
+        var bnum = 0
+        var cnum = 0
+        var cSnum = 0
+        var dnum = 0
+        var dSnum = 0
+        var Enum = 0
+        var fnum = 0
+        var fSnum = 0
+        var gnum = 0
+        var gSnum = 0
+        var nmstart
+        nmstartbut = get("Nmstartbut")
+        nmstartbut.addEventListener("click",nmstart)
+        var notes1
+        notes1 = get("Notes1")
+        var nMmain
+        nMmain = get("NMmain")
+        var nmslider
+        nmslider = get("Nmslider")
+        nmslider.value = 100
+        nmslider.addEventListener("change",nmslidechange)
+        nmslider.addEventListener("pointermove",nmslidechange)
+        var nmslidenum
+        nmslidenum = get("Nmslidenum")
+        nmslidenum.addEventListener("input",slideUD)
+        var onat
+        onat = get("1Nat")
+        onat.addEventListener("click",onatpress)
+        var onatnum
+        onatnum = 0
+        var nmdis = []
+        var  stoponat = 0
+        var rocsl = get("Roc")
+        var roc = rocsl.value
+        var rocnum = get("Rocnum")
+        rocsl.addEventListener("change",rocslchange)
+        rocsl.addEventListener("pointermove",rocslchange)
+        rocnum.addEventListener("input",slUpd)
+        rocnum.value = 2000
+        var onatex = get("Onatex")
+        onat.addEventListener("click",onatexUD)
+        var yn
+        yn = 0
+        var addnoise = get("Addnoise")
+        addnoise.addEventListener("click",plyn)
+        var playn
+        playn = 0
+        var anoise = new Audio("A.mp3")
+        var aSnoise = new Audio("AS.mp3")
+        var bnoise = new Audio("B.mp3")
+        var cnoise = new Audio("C.mp3")
+        var cSnoise = new Audio("CS.mp3")
+        var dnoise = new Audio("D.mp3")
+        var dSnoise = new Audio("DS.mp3")
+        var enoise = new Audio("E.mp3")
+        var fnoise = new Audio("F.mp3")
+        var fSnoise = new Audio("FS.mp3")
+        var gnoise = new Audio("G.mp3")
+        var gSnoise = new Audio("GS.mp3")
+        var chds1 = ["7", "min7", "Maj7", "min7 b5", "7 b9" ]
+        var chval = get("Chval")
+        var addch = get("Addch")
+        addch.addEventListener("click", chst) 
+        var chstnum
+        chstnum = 0
+        //note memory e
+
+
+
+        //layout s
+        function get(id) {
+				return document.getElementById(id);
+            }
+            
+        function hpress() {
+            help.style.display = "none"
+            home.style.display = "block"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+
+        function s1press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "block"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+            nMmain.style.display = "block"
+            notes1.innerHTML = ""
+            nmslider.value = 100
+            notes1.style.dispay = "none"
+            nUD = 0
+            stoponat = 0
+            onatex.style.display = "none"
+            yn = 0
+            onat.checked = false
+            playn = 0
+            addnoise.checked = false
+        }
+
+        function s2press() {
+            console.log(sec2)
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "block"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+
+         function s3press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "block"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+
+         function s4press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "block"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+
+         function s5press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "block"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+
+         function s6press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "block"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+
+         function s7press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "block"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+
+         function s8press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "block"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+
+         function s9press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "block"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+
+         function s10press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "block"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+
+         function s11press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "block"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+
+         function s12press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "block"
+            sec13.style.display = "none"
+        }
+
+         function s13press() {
+            help.style.display = "none"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "block"
+        }
+
+        function infopress() {
+            help.style.display = "block"
+            home.style.display = "none"
+            sec1.style.display = "none"
+            sec2.style.display = "none"
+            sec3.style.display = "none"
+            sec4.style.display = "none"
+            sec5.style.display = "none"
+            sec6.style.display = "none"
+            sec7.style.display = "none"
+            sec8.style.display = "none"
+            sec9.style.display = "none"
+            sec10.style.display = "none"
+            sec11.style.display = "none"
+            sec12.style.display = "none"
+            sec13.style.display = "none"
+        }
+        //layout e
+        //note memory s
+
+            function asel() {
+                anum = anum + 1
+            }
+
+             function aSsel() {
+                aSnum = aSnum + 1
+            }
+
+             function bsel() {
+                bnum = bnum + 1
+            }
+
+            function csel() {
+                cnum = cnum + 1
+            }
+
+            function cSsel() {
+                cSnum = cSnum + 1
+            }
+
+            function dsel() {
+                dnum = dnum + 1
+            }
+            function dSsel() {
+                dSnum = dSnum + 1
+            }
+
+            function esel() {
+                Enum = Enum + 1
+            }
+
+            function fsel() {
+                fnum = fnum + 1
+            }
+
+            function fSsel() {
+                fSnum = fSnum + 1
+            }
+
+            function gsel() {
+                gnum = gnum + 1
+            }
+
+            function gSsel() {
+                gSnum = gSnum + 1
+            }
+
+            function nmstart() {
+                nmdis = []
+                var NoGo = 0
+                if (anum % 2 ==! 0) {
+                   nmdis.push("a")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+
+                if (aSnum % 2 ==! 0) {
+                   nmdis.push("a#")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+
+                if (bnum % 2 ==! 0) {
+                   nmdis.push("b")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+
+                if (cnum % 2 ==! 0) {
+                   nmdis.push("c")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+
+                if (cSnum % 2 ==! 0) {
+                   nmdis.push("c#")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+
+                if (dnum % 2 ==! 0) {
+                   nmdis.push("d")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+
+                if (dSnum % 2 ==! 0) {
+                   nmdis.push("d#")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+
+                if (Enum % 2 ==! 0) {
+                   nmdis.push("e")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+
+                if (fnum % 2 ==! 0) {
+                   nmdis.push("f")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+
+                if (fSnum % 2 ==! 0) {
+                   nmdis.push("f#")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+
+                if (gnum % 2 ==! 0) {
+                   nmdis.push("g")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+
+                if (gSnum % 2 ==! 0) {
+                   nmdis.push("g#")
+                }
+                else {
+                    NoGo = NoGo + 1
+                }
+                if (onatnum % 2 == 0) {
+                     notes1.innerHTML = ""
+                     for (step = 0; step < nmslider.value; step++) {
+                     notes1.innerHTML =  notes1.innerHTML + " " + nmdis[Math.floor(Math.random()*nmdis.length)]
+                    }  
+                }
+                else {
+                  stoponat = 1 
+                  onatrep() 
+                  
+                }
+                 nMmain.style.display = "none"
+                 notes1.style.dispay = "block"
+                 if (NoGo == 12) {
+                    notes1.innerHTML = ""
+                 }
+            }
+
+            function nmslidechange() {
+                nmslidenum.value = nmslider.value
+            }
+
+            function onatpress() {
+                onatnum = onatnum + 1
+            }
+
+            function onatrep() {
+                    if (stoponat == 1) {   
+                        setTimeout(onatrun, roc) 
+                    }
+                
+            }
+
+            function onatrun() {
+                notes2.innerHTML = nmdis[Math.floor(Math.random()*nmdis.length)]
+                if (chstnum % 2 ==! 0) {
+                chval.innerHTML = chds1[Math.floor(Math.random()*chds1.length)]
+                }
+                if (playn % 2 ==! 0) {
+                    if (notes2.innerHTML == "a") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        anoise.play()
+                    }
+                    else if (notes2.innerHTML == "a#") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        aSnoise.play()
+                    }
+                    else if (notes2.innerHTML == "b") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        bnoise.play()
+                    }
+                    else if (notes2.innerHTML == "c") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        cnoise.play()
+                    }
+                    else if (notes2.innerHTML == "c#") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        cSnoise.play()
+                    }
+                    else if (notes2.innerHTML == "d") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        dnoise.play()
+                    }
+                    else if (notes2.innerHTML == "d#") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        dSnoise.play()
+                    }
+                    else if (notes2.innerHTML == "e") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        enoise.play()
+                    }
+                    else if (notes2.innerHTML == "f") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        fnoise.play()
+                    }
+                    else if (notes2.innerHTML == "f#") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        fSnoise.play()
+                    }
+                    else if (notes2.innerHTML == "g") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        gnoise.play()
+                    }
+                    else if (notes2.innerHTML == "g#") {
+                        anoise.pause()
+                        anoise.currentTime = 0.0
+                        aSnoise.pause()
+                        aSnoise.currentTime = 0.0
+                        bnoise.pause()
+                        bnoise.currentTime = 0.0
+                        cnoise.pause()
+                        cnoise.currentTime = 0.0
+                        cSnoise.pause()
+                        cSnoise.currentTime = 0.0
+                        dnoise.pause()
+                        dnoise.currentTime = 0.0
+                        dSnoise.pause()
+                        dSnoise.currentTime = 0.0
+                        enoise.pause()
+                        enoise.currentTime = 0.0
+                        fnoise.pause()
+                        fnoise.currentTime = 0.0
+                        fSnoise.pause()
+                        fSnoise.currentTime = 0.0
+                        gnoise.pause()
+                        gnoise.currentTime = 0.0
+                        gSnoise.pause()
+                        gSnoise.currentTime = 0.0
+                        gSnoise.play()
+                    }
+                }
+                setTimeout(onatrep, roc)
+            }
+
+            function slideUD() {
+                nmslider.value = nmslidenum.value
+            }
+
+            function rocslchange() {
+                rocnum.value = rocsl.value
+                roc = rocsl.value
+            }
+
+            function slUpd() {
+                rocsl.value = rocnum.value
+                roc = rocsl.value
+            }
+
+            function onatexUD() {
+                yn = yn + 1
+                if (yn %2 == 1 ) {
+                    onatex.style.display = "block"
+                }
+                else {
+                    onatex.style.display = "none"
+                }
+            }
+
+            function plyn() {
+                playn = playn + 1
+            }
+
+            function chst() {
+                chstnum = chstnum + 1
+            }
+
+       //note memory e
+    </script>
+    <style>
+        /* layout s */
+        .topbut {
+            border: 0.5px solid white;
+            background: blue;
+            color: mintcream ;
+            height: 40px;
+            width:100px;
+            top:0;
+            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+        }
+        
+        #Gohm {
+            left:0;
+        }
+
+        #Mp {
+            right:50%;
+        }
+
+        #Tfill {
+            position:absolute;
+            border: white;
+            background: red;
+            top:0;
+            height:7.4px;
+            width: 100%;
+            left:0;
+           
+        }
+
+        #Gsec13 {
+            border: none;
+            background: blue;
+            color: mintcream ;
+            height: 40px;
+            width:60px;
+            top:0;
+            border: 0.5px solid white;
+            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .cent {
+            position: relative;
+            right:83%;
+            left:17%;
+            color: black;
+            
+        }
+
+        .topbut:hover {
+            box-shadow:  0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 6px 10px 0 rgba(0, 0, 0, 0.38);
+        }
+
+       #Gsec13:hover {
+        box-shadow:  0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 6px 10px 0 rgba(0, 0, 0, 0.38);
+       }
+       /* layout e */
+       /*note memory s */
+       #Notes1 {
+           font-size: 23px
+       }
+       
+       #Nmstartbut {
+           position:absolute;
+           background-color: rgb(0, 155, 0);
+           color:white;
+           border:0.04px solid white;
+           right:3px;
+           bottom:3px;
+           height:40px;
+           width:90px;
+           box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       }
+
+        #Nmstartbut:hover{
+            box-shadow:  0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 6px 10px 0 rgba(0, 0, 0, 0.38);
+           
+        }
+        #Nmslidenum {
+            border:none;
+        }
+
+        .topbut:active {
+            outline: none;
+            border: none;
+        }
+
+        .topbut:focus {outline:0;}
+
+        #Gsec13:active {
+            outline: none;
+            border: none;
+        }
+
+        #Gsec13:focus {
+            outline:0;
+        }
+
+        #notes2 {
+            position:absolute;
+            font-size:250px;
+            right:50%;
+            left:50%;
+        }
+
+        #Rocnum {
+            border: none;
+        }
+
+        #Info {
+            position:absolute;
+            right:0.1%;
+            top:1%;
+        }
+
+        #Chval {
+            position:absolute;
+            font-size:250%;
+            right:28%;
+            top: 40%;
+        }
+
+        #Metnm {
+            border-width:3px;
+            border:3px;
+            color:aqua;
+            height:10%;
+            width:10%;
+        }
+       
+       /* note memory e */
+    </style>   
+</html>

@@ -1,0 +1,2 @@
+s=input(str)
+''.join(str(odr(c)) for c in s)

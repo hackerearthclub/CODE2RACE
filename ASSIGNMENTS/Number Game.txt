@@ -11,7 +11,7 @@ For each test case, output a single line containing the number of possible first
 
 Constraints
 1 ≤ T ≤ 100
-10 ≤ A < 10106 (i.e. The number of digits in A can be upto 106)
+10 ≤ A < 106 (i.e. The number of digits in A can be upto 106)
 1 ≤ M ≤ 1000
 
 The sum of number of digits of A over all test cases will not exceed 5 * 10^6

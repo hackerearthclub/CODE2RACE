@@ -1,0 +1,47 @@
+def work1(l,great):
+    flag=1
+    while(True):
+        if flag==1:
+            for i in l:
+                if great%i==0:
+                    flag=0
+                else:
+                    flag=1
+                    break
+            if flag==0:
+                lcm=great
+                break
+            else:
+                great=great+1
+
+    print ("LCM of the array of number entered is: ",lcm)
+
+def work2(l,low):
+    flag=1
+    while(True):
+        if flag==1:
+            for i in l:
+                if i%low==0:
+                    flag=0
+                else:
+                    flag=1
+                    break
+            if flag==0:
+                hcf=low
+                break
+            else:
+                low=low-1
+
+    print("HCF of the array of the number entered is:",hcf)
+
+def main():
+    n=int(input("No of numbers whose LCM and HCF you want to find - "))
+    l=[]
+    for i in range(0,n):
+        l+=[int(input("Enter the {} number ".format(i+1)))]
+    great=max(l)
+    least=min(l)
+    work1(l,great)
+    work2(l,least)
+
+main()

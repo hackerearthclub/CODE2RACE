@@ -1,0 +1,27 @@
+Sherlock's Mystery
+
+Sherlock is in the mid of a mystery and he has very less time to solve the mystery and save Ms. Warne.
+Watson gives Sherlock a number N and tells him to find the answer to it and that number is the code to the door inside which Ms. Warne is stuck.  He gives him a clue to solve the task and tells him to determine how many pairs of X,Y and Z exists in the list of numbers 1 to N(inclusive) such that the sum of the elements is an even number and X!=Y!=Z(all are distinct) and there is no repetition. If there are no such elements then the output is considered to be zero.
+
+Input
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains an integer N.
+
+Output
+For each test case, print a single line containing a number.
+
+Constraints
+1 = T = 1,000
+1 = N = 103
+
+Example Input
+2
+6
+10
+
+Example Output
+10
+60
+
+Time Limit :- 1 secs
+AUTHOR :- ABHINAV SHARMA

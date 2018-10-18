@@ -1,0 +1,541 @@
+<html>
+
+<head>
+  <style>
+    section {
+      width: 940px;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+
+    }
+
+    /*--- Face ---*/
+
+    #cheek,
+    #head,
+    #neck,
+    ears {
+      background: #f2d400;
+      position: absolute;
+    }
+
+    #head {
+      width: 180px;
+      height: 150px;
+      top: 240px;
+      left: 340px;
+    }
+
+    #cheek {
+      width: 130px;
+      height: 50px;
+      top: 390px;
+      left: 363px;
+    }
+
+    #cheek:before,
+    #cheek:after {
+      content: '';
+      display: block;
+      background: #f2d400;
+      position: absolute;
+      width: 50px;
+      height: 60px;
+      top: -10px;
+    }
+
+    #cheek:before {
+      left: -20px;
+      border-top-left-radius: 20%;
+      border-bottom-left-radius: 70%;
+      box-shadow: -4px 3px 0 #000;
+
+    }
+
+    #cheek:after {
+      right: -20px;
+      border-top-right-radius: 20%;
+      border-bottom-right-radius: 70%;
+      box-shadow: 4px 3px 0 0 #000;
+    }
+
+    #neck {
+      position: absolute;
+      width: 120px;
+      height: 60px;
+      top: 438px;
+      left: 370px;
+
+    }
+
+    #neck:before,
+    #neck:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 25px;
+      height: 60px;
+      border-radius: 50%;
+      background: white;
+    }
+
+    #neck:before {
+      top: 4px;
+      left: -20px;
+      border-top-right-radius: 70%;
+      border-bottom-right-radius: 40%;
+      box-shadow: 4px -4px 0 0 #000;
+      transform: rotate(11deg);
+    }
+
+    #neck:after {
+      top: 3px;
+      right: -19px;
+      border-top-left-radius: 70%;
+      border-bottom-left-radius: 40%;
+      box-shadow: -4px -4px 0 0 #000;
+      transform: rotate(-12deg);
+    }
+
+    #ears:before,
+    #ears:after {
+      content: '';
+      display: block;
+      background: #f2d400;
+      position: absolute;
+      width: 30px;
+      height: 40px;
+      border-radius: 50%;
+      top: 350px;
+    }
+
+    #ears:before {
+      transform: rotate(-5deg);
+      left: 328px;
+      box-shadow: -4px -1px 0 2px #000;
+
+    }
+
+    #ears:after {
+      transform: rotate(5deg);
+      left: 500px;
+      box-shadow: 4px 1px 0 2px #000;
+    }
+
+    #smile {
+      display: block;
+      position: absolute;
+      top: 0;
+      width: 140px;
+      height: 40px;
+      border-radius: 50%;
+      top: 365px;
+      left: 358px;
+      border-bottom: solid 5px;
+    }
+
+    #eyes:before,
+    #eyes:after {
+      content: '';
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background: #fff;
+      border: solid 4px #000;
+      border-radius: 50%;
+      top: 280px;
+    }
+
+    #eyes:before {
+      left: 330px;
+    }
+
+    #eyes:after {
+      left: 445px;
+    }
+
+    #eyes-p:before,
+    #eyes-p:after {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: #000;
+      border-radius: 50%;
+      top: 320px;
+    }
+
+    #eyes-p:before {
+      left: 365px;
+    }
+
+    #eyes-p:after {
+      left: 480px;
+    }
+
+    .eyelash {
+      display: block;
+      position: absolute;
+      width: 15px;
+      height: 20px;
+      border-radius: 50%;
+    }
+
+    .e-1 {
+      top: 290px;
+      left: 326px;
+      transform: rotate(-60deg);
+      box-shadow: -3px 0 0 0 #000;
+    }
+
+    .e-2 {
+      top: 277px;
+      left: 333px;
+      transform: rotate(-50deg);
+      box-shadow: -3px 0 0 0 #000;
+    }
+
+    .e-3 {
+      top: 268px;
+      left: 345px;
+      transform: rotate(-40deg);
+      box-shadow: -3px 0 0 0 #000;
+    }
+
+    .e-4 {
+      top: 290px;
+      left: 521px;
+      transform: rotate(60deg);
+      box-shadow: 3px 0 0 0 #000;
+    }
+
+    .e-5 {
+      top: 276px;
+      left: 516px;
+      transform: rotate(50deg);
+      box-shadow: 3px 0 0 0 #000;
+    }
+
+    .e-6 {
+      top: 268px;
+      left: 503px;
+      transform: rotate(40deg);
+      box-shadow: 3px 0 0 0 #000;
+    }
+
+
+    #nose {
+      background: #f2d400;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      top: 332px;
+      left: 411px;
+      box-shadow: 0 3px 0 2px #000;
+
+    }
+
+    /*------ Hair ------*/
+
+    #hair-base {
+      position: absolute;
+      background: #4063b4;
+      height: 410px;
+      width: 214px;
+      left: 321px;
+      top: 10px;
+    }
+
+    #hair-base:before,
+    #hair-base:after {
+      content: '';
+      display: block;
+      position: absolute;
+      background: #4063b4;
+      width: 50px;
+      height: 50px;
+      bottom: -10px;
+    }
+
+    #hair-base:before {
+      left: -10px;
+      border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+      transform: rotate(-20deg);
+      box-shadow: -2px 0 0 2px #000;
+    }
+
+    #hair-base:after {
+      right: -10px;
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+      transform: rotate(20deg);
+      box-shadow: 3px 0 0 2.8px #000;
+    }
+
+    .hair-bump-l,
+    .hair-bump-r,
+    .hair-bump-t {
+      display: block;
+      position: absolute;
+      background: #4063b4;
+      border-radius: 50%;
+      width: 50px;
+      height: 25px;
+    }
+
+    .hair-bump-l {
+      left: 293px;
+      transform: rotate(-90deg);
+      box-shadow: 0 -4px 0 0 #000;
+    }
+
+    .hair-bump-r {
+      left: 510px;
+      transform: rotate(90deg);
+      box-shadow: 0 -4px 0 0 #000;
+    }
+
+    .h-1 {
+      top: 350px;
+    }
+
+    .h-2 {
+      top: 305px;
+    }
+
+    .h-3 {
+      top: 256px;
+    }
+
+    .h-4 {
+      top: 207px;
+    }
+
+    .h-5 {
+      top: 158px;
+    }
+
+    .h-6 {
+      top: 109px;
+    }
+
+    .h-7 {
+      top: 60px;
+    }
+
+    .h-8 {
+      top: 11px;
+    }
+
+    .hair-bump-t {
+      box-shadow: 0 -4px 0 0 #000;
+      top: -5px;
+    }
+
+    .t-1 {
+      left: 309px;
+    }
+
+    .t-2 {
+      left: 354px;
+    }
+
+    .t-3 {
+      left: 401px;
+    }
+
+    .t-5 {
+      left: 448px;
+    }
+
+    .t-4 {
+      left: 495px;
+    }
+
+    .hair-bump-f {
+      display: block;
+      position: absolute;
+      background: #4063b4;
+      border-radius: 50%;
+      width: 50px;
+      height: 40px;
+    }
+
+    .f-1 {
+      left: 310px;
+      top: 261px;
+      transform: rotate(-80deg);
+      box-shadow: 0 4px 0 0 #000;
+    }
+
+    .f-2 {
+      left: 320px;
+      top: 220px;
+      transform: rotate(-20deg);
+      box-shadow: 0 4px 0 0 #000;
+    }
+
+    .f-3 {
+      left: 359px;
+      top: 210px;
+      transform: rotate(0deg);
+      box-shadow: 0 4px 0 0 #000;
+    }
+
+    .f-4 {
+      left: 405px;
+      top: 210px;
+      transform: rotate(-10deg);
+      box-shadow: 0 4px 0 0 #000;
+    }
+
+    .f-5 {
+      left: 495px;
+      top: 256px;
+      transform: rotate(70deg);
+      box-shadow: 0 4px 0 0 #000;
+    }
+
+    .f-6 {
+      left: 490px;
+      top: 222px;
+      transform: rotate(20deg);
+      box-shadow: 0 4px 0 0 #000;
+    }
+
+    .f-7 {
+      left: 452px;
+      top: 212px;
+      transform: rotate(10deg);
+      box-shadow: 0 4px 0 0 #000;
+    }
+
+    /*--- Necklace ---*/
+
+    .necklace {
+      display: block;
+      position: absolute;
+      background: -webkit-linear-gradient(-45deg, #d3594c 0%, #da3c23 99%);
+      border-radius: 50%;
+      box-shadow: -1px 1px 0 3px #000;
+      width: 30px;
+      height: 30px;
+    }
+
+    .p-1 {
+      top: 470px;
+      left: 350px;
+    }
+
+    .p-2 {
+      top: 480px;
+      left: 365px;
+    }
+
+    .p-3 {
+      top: 487px;
+      left: 387px;
+    }
+
+    .p-4 {
+      top: 490px;
+      left: 415px;
+    }
+
+    .p-5 {
+      top: 487px;
+      left: 445px;
+    }
+
+    .p-6 {
+      top: 480px;
+      left: 465px;
+    }
+
+    .p-7 {
+      top: 475px;
+      left: 480px;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+
+    <!-- Hair Back -->
+    <div id="hair-base"></div>
+    <div id="cabeleira">
+      <div class="hair-bump-l h-1"></div>
+      <div class="hair-bump-l h-2"></div>
+      <div class="hair-bump-l h-3"></div>
+      <div class="hair-bump-l h-4"></div>
+      <div class="hair-bump-l h-5"></div>
+      <div class="hair-bump-l h-6"></div>
+      <div class="hair-bump-l h-7"></div>
+      <div class="hair-bump-l h-8"></div>
+
+      <div class="hair-bump-r h-1"></div>
+      <div class="hair-bump-r h-2"></div>
+      <div class="hair-bump-r h-3"></div>
+      <div class="hair-bump-r h-4"></div>
+      <div class="hair-bump-r h-5"></div>
+      <div class="hair-bump-r h-6"></div>
+      <div class="hair-bump-r h-7"></div>
+      <div class="hair-bump-r h-8"></div>
+
+      <div class="hair-bump-t t-1"></div>
+      <div class="hair-bump-t t-2"></div>
+      <div class="hair-bump-t t-3"></div>
+      <div class="hair-bump-t t-4"></div>
+      <div class="hair-bump-t t-5"></div>
+    </div>
+
+    <!-- Face -->
+    <div id="cheek"></div>
+    <div id="neck"></div>
+    <div id="head"></div>
+    <div id="ears"></div>
+    <div id="smile"></div>
+    <div id="nose"></div>
+
+    <!-- Bangs -->
+    <div class="hair-bump-f f-1"></div>
+    <div class="hair-bump-f f-2"></div>
+    <div class="hair-bump-f f-3"></div>
+    <div class="hair-bump-f f-4"></div>
+    <div class="hair-bump-f f-5"></div>
+    <div class="hair-bump-f f-6"></div>
+    <div class="hair-bump-f f-7"></div>
+
+
+    <!-- Eyes -->
+    <div class="eyelash e-1"></div>
+    <div class="eyelash e-2"></div>
+    <div class="eyelash e-3"></div>
+
+    <div class="eyelash e-4"></div>
+    <div class="eyelash e-5"></div>
+    <div class="eyelash e-6"></div>
+
+    <div id="eyes"></div>
+    <div id="eyes-p"></div>
+
+    <!-- Necklace -->
+    <div class="necklace p-1"></div>
+    <div class="necklace p-7"></div>
+    <div class="necklace p-6"></div>
+    <div class="necklace p-2"></div>
+    <div class="necklace p-3"></div>
+    <div class="necklace p-5"></div>
+    <div class="necklace p-4"></div>
+
+  </section>
+</body>
+
+
+
+</html>

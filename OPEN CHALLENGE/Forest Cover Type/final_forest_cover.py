@@ -1,4 +1,4 @@
-'''#Importing Modules
+#Importing Modules
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -110,4 +110,4 @@ ans=rf.predict(test_X)
 
 #Write to CSV
 submission =pd.DataFrame({"Id":test["Id"],"Cover_Type":ans})
-submission.to_csv('Final Submission.csv',index=False)'''
+submission.to_csv('Final Submission.csv',index=False)

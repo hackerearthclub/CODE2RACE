@@ -27,10 +27,7 @@ public class EmptyBottles
 		int remainder = 0;
 		int quotient = 0;
 		quotient = total/100;
-		remainder = total%100;
 		answer += quotient;
-		if (remainder >= 50)
-			answer++;
 		return answer;
 	}
 

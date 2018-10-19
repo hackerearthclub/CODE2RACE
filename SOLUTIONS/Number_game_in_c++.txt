@@ -1,0 +1,128 @@
+/*input
+10
+63 976
+287311940 214
+64619498 54
+434539212 68
+4279 703
+0 432
+2746 97
+021191 239
+734 416
+7797541996 868
+*/
+#include<bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define int ll
+#define pb push_back
+#define INF 1000000000
+#define MOD 1000000007
+#define mp make_pair
+const double PI=3.141592653589793238462643383279502884197169399375105820974944;
+#define REP(i,n) for (int i = 0; i < n; i++)
+#define FOR(i,a,b) for (int i = a; i < b; i++)
+#define REPD(i,n) for (int i = n-1; i >= 0; i--)
+#define FORD(i,a,b) for (int i = a; i >= b; i--)
+#define remax(a,b) a = max(a,b)
+#define remin(a,b) a = min(a,b)
+#define all(v) v.begin(),v.end()
+#define pii pair<int,int>
+#define F first
+#define S second
+#define mii map<int,int>
+#define vi vector<int>
+#define vvi vector<vi>
+#define itr :: iterator it
+#define WL(t) while(t --)
+#define gcd(a,b) __gcd((a),(b))
+#define lcm(a,b) ((a)*(b))/gcd((a),(b))
+#define print(arr) for (auto it = arr.begin(); it != arr.end(); ++it) cout << *it << " "; cout << endl;
+#define debug(x) cout << x << endl;
+#define debug2(x,y) cout << x << " " << y << endl;
+#define debug3(x,y,z) cout << x << " " << y << " " << z << endl;
+
+int power(int a,int b,int m){
+	if(b == 0) return 1;
+	if(b == 1) return a;
+	int x = power(a,b/2,m)%m;
+	x = (x*x)%m;
+	if(b%2) return (x*a)%m;
+	return x;
+}
+
+string a;
+int n,m,val[1000005],val2[1000005];
+vi adj[1005];
+bitset<1005> vis;
+
+void dfs(int s){
+	vis[s] = 1;
+	for(auto x:adj[s]){
+		if(!vis[x]) dfs(x);
+	}
+}
+
+void solve(){
+	cin >> a >> m;
+	n = a.length();
+	int cur = 1,tot = 0;
+	for(int i = n-1; i >= 0; i--){
+		val[i] = (cur*(a[i]-'0'))%m;
+		tot = (tot+val[i])%m;
+		cur = (cur*10)%m;
+	}
+	cur = 1;
+	for(int i = n-2; i >= 0; i--){
+		val2[i] = (cur*(a[i]-'0'))%m;
+		cur = (cur*10)%m;
+	}
+
+	queue<int> q;
+	cur = 0;
+	vi v,v2;
+	vis.reset();
+	REP(i,n){
+		tot = (tot-val[i]+m)%m;
+		if(i) cur += val2[i-1];
+		cur %= m;
+		int hehe = (tot+cur)%m;
+		v2.pb(hehe);
+		if(!vis[hehe]){
+			v.pb(hehe);
+			q.push(hehe);
+			vis[hehe] = 1;
+		}
+		// cout << v[i] << " ";
+	}
+	// cout << "\n";
+	REP(i,m+2) adj[i].clear();
+
+	int lol = power(10,n-1,m);
+	REP(i,m){
+		for(auto x:v){
+			int j = (i*lol+x)%m;
+			adj[j].pb(i);
+		}
+	}
+	// cout << vis << endl;
+	vis.reset();
+	dfs(0);
+	int ans = 0;
+	for(auto x:v2) ans += vis[x];
+	cout << ans << endl;
+}
+
+signed main(){
+	ios_base::sync_with_stdio(false);
+	cin.tie(0);
+	cout.tie(0);
+
+	// freopen("inp.txt","r",stdin);
+
+	int t = 1;
+	cin >> t;
+	WL(t) solve();
+}
+

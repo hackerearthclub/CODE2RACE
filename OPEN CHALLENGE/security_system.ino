@@ -2,8 +2,8 @@
 #include<SoftwareSerial.h>
 #define baudrate 115200
 SoftwareSerial esp(2,3);// 2 as Rx 3 as Tx
-#define SSID "Tech_D0014706"//wifi ka Naam
-#define PASS "Abdulkalam@84"//Wifi ka password
+#define SSID "Your wifi Name"//wifi ka Naam
+#define PASS "YOur wifi password"//Wifi ka password
 #define IP "184.106.153.149" // thing speak ip address: 184.106.153.149
 int IR=5,value=1;
 // GET /update?key=[THINGSPEAK_KEY]&field1=[data 1]&field2=[data 2]...;

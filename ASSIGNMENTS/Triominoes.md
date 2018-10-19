@@ -29,6 +29,7 @@ Print one integer i.e. answer modulo <b>1000000007 = (10^9) + 7</b>
 1≤ n ≤ 6
 
 1≤ m ≤ 21
+
 <b><i>n</i> x <i>m</i></b> is divisible by <b>3</b>
 
 #### Sample Input 

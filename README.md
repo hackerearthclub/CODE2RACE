@@ -1,17 +1,14 @@
 # CODE2RACE --- Dive into coding world 
 # Let's celebrate HacktoberFest 😎
 Register for the hacktober fest https://hacktoberfest.digitalocean.com/
-
 ⭐
 ## OPEN CHALLENGE - 
 Any code in any language that makes you stand out and is worth innovative⭐⭐
 
 #### Submit solution for this challenge in "open challenge" repository
 ⭐
-
 ## Questions will be given as an issue. 😁
 Access the problem statement in assignment subdirectory.
-
 
 #### Submit your solutions as pull-requests to the *solutions* subdirectory in this repository. (i.e. submit your solution file in the SOLUTIONS subdirectory.)
 You are free to choose any language you wish. <br> 

@@ -19,3 +19,7 @@ Member List
 #### Farzan F A
 - [farzanfa](https://github.com/Farzanfa)
 ---
+
+#### Mohammed Faizaan Muzawar
+- [faizaan-mm](https://github.com/faizaan-mm)
+---

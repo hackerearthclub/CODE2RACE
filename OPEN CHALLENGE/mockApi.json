@@ -1,0 +1,15 @@
+{
+  "GET /": {
+    "response": {
+      "status": "oh"
+    }
+  },
+  "GET /example": {
+    "headers": {
+      "x-api-key": "test"
+    },
+    "response": {
+      "foo": "bar"
+    }
+  }
+}

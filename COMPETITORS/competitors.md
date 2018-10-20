@@ -15,3 +15,7 @@ Member List
 #### Matteo Veraldi
 - [mattveraldi](https://github.com/mattveraldi)
 ---
+
+#### Farzan F A
+- [farzanfa](https://github.com/Farzanfa)
+---

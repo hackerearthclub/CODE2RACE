@@ -23,3 +23,7 @@ Member List
 #### Mohammed Faizaan Muzawar
 - [faizaan-mm](https://github.com/faizaan-mm)
 ---
+
+#### GALLERIA
+- [Galleria](https://github.com/Galleria)
+---

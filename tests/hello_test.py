@@ -6,7 +6,7 @@ import sys
 if sys.version_info <= (3, 5):
     sys.exit()
 
-with os.scandir("solutions") as it:
+with os.scandir("SOLUTIONS") as it:
     for entry in it:
         name = entry.name.lower()
         if entry.is_file() and "hello" in name and os.path.splitext(name)[-1] == ".py":

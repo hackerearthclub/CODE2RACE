@@ -31,3 +31,7 @@ Member List
 ### Vyshnavy
 - [Vyshnavy](https://github.com/vyshnavy)
 ---
+
+###Annalaura Ianiro
+-[Al1190](https://github.com/al1190)
+---

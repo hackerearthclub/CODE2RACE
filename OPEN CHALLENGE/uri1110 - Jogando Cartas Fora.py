@@ -1,3 +1,4 @@
+from __future__ import print_function
 def topo(lista):
 	return pilha[0]
 def removetopo(lista):

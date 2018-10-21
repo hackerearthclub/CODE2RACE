@@ -1,3 +1,4 @@
+from __future__ import print_function
 def main():
     userInput = input('Enter a string with multiple words: ')
     wordsArr = userInput.split(' ')

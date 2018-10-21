@@ -1,3 +1,4 @@
+from __future__ import print_function
 # ARRAY 
 # LCM AND GCD
 def find_lcm(num1, num2): 

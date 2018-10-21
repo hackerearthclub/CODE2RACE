@@ -4,6 +4,7 @@ Created on Fri Oct 19 00:58:00 2018
 
 @author: Ishita
 """
+from __future__ import print_function
 
 T = int(input())
 for index in range(T):

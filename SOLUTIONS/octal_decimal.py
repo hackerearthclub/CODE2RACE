@@ -1,3 +1,4 @@
+from __future__ import print_function
 def octal_to_decimal(octal):
     octal_str = list(reversed(str(octal))) 
     decimal = 0

@@ -1,3 +1,4 @@
+from __future__ import print_function
 word = "This is just a test."
 
 

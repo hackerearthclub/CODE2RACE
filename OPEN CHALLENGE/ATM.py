@@ -1,3 +1,4 @@
+from __future__ import print_function
 def appendstring(t,n,k,arr):
 	binarystring = []
 	for i in range(0,t):

@@ -1,3 +1,4 @@
+from __future__ import print_function
 def _lcm(a,b):
   if(a>b):
     num=a
@@ -11,7 +12,7 @@ def _lcm(a,b):
     den=rem
     rem=num%den
   gcd=den
-  lcm=_int(int(a*b)/int(gcd))
+  lcm=int(int(a*b)/int(gcd))
   return lcm
 def _gcd(c,d):
   while(d):

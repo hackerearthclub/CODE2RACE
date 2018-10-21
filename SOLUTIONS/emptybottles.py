@@ -1,6 +1,7 @@
 """Empty Bottles ,
 Solved by - Paritosh Mahajan , github - paritoshM9
 """
+from __future__ import print_function
 
 t = int(input())
 

@@ -1,3 +1,4 @@
+from __future__ import print_function
 fname = input("Enter file name: ")
 fh = open(fname)
 lst=list()

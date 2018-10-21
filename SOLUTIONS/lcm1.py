@@ -1,3 +1,4 @@
+from __future__ import print_function
 def find_lcm(num1,num2):
   if(num1>num2):
     num=num1

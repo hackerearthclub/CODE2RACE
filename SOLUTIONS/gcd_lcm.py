@@ -1,3 +1,4 @@
+from __future__ import print_function
 # Python version of C++ Solution in GeeksforGeeks
 def gcd(a,b):
 	if a == 0:
@@ -23,6 +24,6 @@ if __name__ == '__main__':
 	_l = [ 1, 2, 3]
 	n = len(_l)
 	res = findGCD(_l,n)
-	print "GCD=	" + str(res) 
+	print("GCD=	" + str(res)) 
 	res = findLCM(_l,n)
-	print "LCM=	" + str(res) 
+	print("LCM=	" + str(res)) 

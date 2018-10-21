@@ -1,3 +1,4 @@
+from __future__ import print_function
 s = input()
 ans = ''
 for i in range(len(s)):

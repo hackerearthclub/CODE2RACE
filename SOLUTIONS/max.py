@@ -1,3 +1,4 @@
+from __future__ import print_function
 t = int(input())
 ans = []
 for i in range(t):

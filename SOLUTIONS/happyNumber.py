@@ -1,3 +1,4 @@
+from __future__ import print_function
 number = int(input("Enter a number to check if it is happy or '0' to quit: "))
 
 while number!=0:

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function
 T = int(input())
 for index in range(T):
     N, Q = list(map(int, input().split()))

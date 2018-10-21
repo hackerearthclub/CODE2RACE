@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+from __future__ import print_function
 from collections import deque, defaultdict
 
 class Node:

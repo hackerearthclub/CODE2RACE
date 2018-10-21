@@ -1,3 +1,4 @@
+from __future__ import print_function
 def compare(s, t):
     t = list(t)
     try:

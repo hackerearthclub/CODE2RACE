@@ -1,3 +1,4 @@
+from __future__ import print_function
 # Reads strings and rolls dice based on those strings.
 # Inputs are in the traditional DnD dice rolling format, or ndx, where n is the number of dice to roll and x is the number of sides on each die.
 # Valid input examples: "1d6", "2d4", "2d6+5", "3d20+6d4", "1d15+4d7+13"

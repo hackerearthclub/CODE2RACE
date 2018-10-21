@@ -1,3 +1,4 @@
+from __future__ import print_function
 import pandas as pd
 import numpy as np
 d1=pd.Series(range(5,10))
@@ -41,4 +42,4 @@ print(d5)
 
 
 for index,rows in d5.iterrows():
-    print(rows['names'],rows['qualify'])
+    print((rows['names'],rows['qualify']))

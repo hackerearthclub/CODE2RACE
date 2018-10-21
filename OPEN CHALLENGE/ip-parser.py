@@ -1,3 +1,4 @@
+from __future__ import print_function
 #Receives Ip as string x.y.z.w then prints it's class and mask in decimal and binary 
 def number2bin(num):
     m=0x01

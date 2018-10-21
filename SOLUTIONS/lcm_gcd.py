@@ -1,3 +1,4 @@
+from __future__ import print_function
 def gcd(a, b):
     # Euclid's algorithm
     if a == 0:
@@ -18,5 +19,5 @@ for e in elements:
     g = gcd(g, e)
     l = lcm(l, e)
 
-print("GCD = ", g)
-print("LCM = ", l)
+print(("GCD = ", g))
+print(("LCM = ", l))

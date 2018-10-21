@@ -1,3 +1,4 @@
+from __future__ import print_function
 n = int(input('Number of Capacitors: '))
 
 def factorial(n):

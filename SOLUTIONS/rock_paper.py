@@ -1,3 +1,4 @@
+from __future__ import print_function
 import getpass  #to hide the user's input
 moves = {"rock":1 ,"paper":2,"scissors":3}
 def play(player):

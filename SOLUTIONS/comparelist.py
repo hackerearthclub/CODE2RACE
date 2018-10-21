@@ -1,3 +1,4 @@
+from __future__ import print_function
 
 a = [1, 2, 3, 1, 2, 3]
 b = [3, 2, 1, 3, 2, 1]

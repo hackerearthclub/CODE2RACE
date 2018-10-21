@@ -1,3 +1,4 @@
+from __future__ import print_function
 
 def isPalindrome(a):
     return str(a) == str(a)[::-1]

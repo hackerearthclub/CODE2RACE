@@ -1,3 +1,4 @@
+from __future__ import print_function
 from textblob import TextBlob
 import sys , tweepy
 import matplotlib.pyplot as plt 

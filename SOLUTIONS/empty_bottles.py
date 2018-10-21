@@ -1,3 +1,4 @@
+from __future__ import print_function
 import unittest
 
 def empty_bottles(num_bottles, bottle_heights):
@@ -28,7 +29,7 @@ if __name__ == '__main__':
         num_bottles = input()
         num_bottles = int(num_bottles)
         bottle_heights = input()
-        print('Answer: ', empty_bottles(num_bottles, bottle_heights))
+        print(('Answer: ', empty_bottles(num_bottles, bottle_heights)))
         test_case = test_case - 1
     # uncomment bottom line to test
     # unittest.main()

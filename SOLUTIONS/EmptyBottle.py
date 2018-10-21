@@ -1,3 +1,4 @@
+from __future__ import print_function
 for _ in range(int(input())):
 	n=int(input())
 	botle_height=list(map(int,input().split()))

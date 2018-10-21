@@ -1,3 +1,4 @@
+from __future__ import print_function
 import random
 import copy
 import time
@@ -159,22 +160,22 @@ def efficient_sol(n, m):
 
 
 def test_validity(cases_cnt):
-    print("Check validity against a slow naive solution for",
-          cases_cnt, "random test cases.")
+    print(("Check validity against a slow naive solution for",
+          cases_cnt, "random test cases."))
     test_cases = [(2, 8)] + [(random.randint(2, 3), random.randint(3, 6))
                              for i in range(cases_cnt)]
     for n, m in test_cases:
         naive = naive_sol(n, m)
         efficient = efficient_sol(n, m)
         if naive != efficient:
-            print("Mismatch at input:", n, m)
-            print("The naive_sol is    :", naive)
-            print("The efficient sol is:", efficient)
+            print(("Mismatch at input:", n, m))
+            print(("The naive_sol is    :", naive))
+            print(("The efficient sol is:", efficient))
     print("Done")
 
 
 def benchmark(cases_cnt):
-    print("Benchmarking the solution against", cases_cnt, "big inputs.")
+    print(("Benchmarking the solution against", cases_cnt, "big inputs."))
     test_cases = [(6, 21)] + [(random.randint(3, 6),
                                random.randint(10, 21)) for i in range(cases_cnt)]
     total_time = 0
@@ -187,10 +188,10 @@ def benchmark(cases_cnt):
         total_time += elapsed_time
         min_time = min(min_time, elapsed_time)
         max_time = max(max_time, elapsed_time)
-    print("Average time taken per input:",
-          total_time / len(test_cases), "seconds")
-    print("Min time taken:", min_time, "seconds")
-    print("Max time taken:", max_time, "seconds")
+    print(("Average time taken per input:",
+          total_time / len(test_cases), "seconds"))
+    print(("Min time taken:", min_time, "seconds"))
+    print(("Max time taken:", max_time, "seconds"))
 
 test_validity(25)
 benchmark(100)

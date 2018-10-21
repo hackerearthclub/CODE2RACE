@@ -1,3 +1,4 @@
+from __future__ import print_function
 #Importing Modules
 import pandas as pd
 import numpy as np
@@ -39,7 +40,7 @@ x_train,x_test,y_train,y_test=sklearn.model_selection.train_test_split(train_X,t
 import sklearn.ensemble
 rf = sklearn.ensemble.RandomForestClassifier()
 rf=rf.fit(x_train,y_train)
-print("Random Forest Accuracy-->",rf.score(x_test,y_test),'\n')
+print(("Random Forest Accuracy-->",rf.score(x_test,y_test),'\n'))
 
 
 #Top 10 important features
@@ -58,21 +59,21 @@ plt.show()
 import sklearn.tree
 clf_gini=sklearn.tree.DecisionTreeClassifier(criterion='gini',random_state=0,max_depth=5,min_samples_leaf=7)
 clf=clf_gini.fit(x_train,y_train)
-print("Decision Tree Accuracy-->",clf.score(x_test,y_test),'\n')
+print(("Decision Tree Accuracy-->",clf.score(x_test,y_test),'\n'))
 
 
 #NAIVE BAYES
 from sklearn.naive_bayes import GaussianNB
 nb=GaussianNB()
 nb=nb.fit(x_train,y_train)
-print("Naive Bayes Accuracy-->",nb.score(x_test,y_test),'\n')
+print(("Naive Bayes Accuracy-->",nb.score(x_test,y_test),'\n'))
 
 
 #SVM:SVC
 import sklearn.svm
 sv=sklearn.svm.SVC()
 sv=sv.fit(x_train,y_train)
-print("SVM Accuracy-->",sv.score(x_test,y_test),'\n')
+print(("SVM Accuracy-->",sv.score(x_test,y_test),'\n'))
 
 
 #DNN Classifier
@@ -100,7 +101,7 @@ def my_train_input_fn():
 def my_test_input_fn():
 	return dict(test_x),test_y
 estimator.train(input_fn=my_train_input_fn,steps=200)
-print("DNN Classifier Accuracy-->",estimator.evaluate(input_fn=my_test_input_fn,steps=200))
+print(("DNN Classifier Accuracy-->",estimator.evaluate(input_fn=my_test_input_fn,steps=200)))
 
 
 # Retrain with entire training set and predict test set.

@@ -1,3 +1,4 @@
+from __future__ import print_function
 # Reverses the words in a string.
 
 def reverseWords(inputString):

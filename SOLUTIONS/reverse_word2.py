@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function
 try:
-    input = raw_input  # Python 2
-except:
-    pass               # Python 3
+    raw_input          # Python 2
+except NameError:
+    raw_input = input  # Python 3
 
 
 def reverse(sentence):
@@ -22,7 +23,6 @@ def reverse(sentence):
 
 
 if __name__ == "__main__":
-    sentence = input("Enter a string : ")
+    sentence = raw_input("Enter a string : ")
     newSentence = reverse(sentence)
     print(newSentence)
-

@@ -1,3 +1,4 @@
+from __future__ import print_function
 a = input("player one, type your input for rock, with a r, paper, with p, or scissors, with s: ")
 print("")
 print("")

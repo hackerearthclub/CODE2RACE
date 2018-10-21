@@ -1,3 +1,4 @@
+from __future__ import print_function
 
 with open('regex_sum_107892.txt') as f:
     fdata=f.read()

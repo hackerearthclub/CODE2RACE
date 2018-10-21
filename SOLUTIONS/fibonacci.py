@@ -1,3 +1,5 @@
+from __future__ import print_function
+
 nterms = 10
 
 # uncomment to take input from the user

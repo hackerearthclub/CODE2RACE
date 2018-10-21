@@ -2,9 +2,14 @@ from __future__ import print_function
 import random
 
 try:
-    input = raw_input  # Python 2
-except:
-    pass               # Python 3
+    raw_input          # Python 2
+except NameError:
+    raw_input = input  # Python 3
+
+try:
+    xrange          # Python 2
+except NameError:
+    xrange = range  # Python 3
 
 
 def gcd(a, b):
@@ -98,12 +103,12 @@ def decrypt(publicKey, ciphertext):
 
 if __name__ == '__main__':
     print("RSA Encrypter/ Decrypter")
-    p = int(input("Enter a prime number (17, 19, 23, etc): "))
-    q = int(input("Enter another prime number (Not one you entered above): "))
+    p = int(raw_input("Enter a prime number (17, 19, 23, etc): "))
+    q = int(raw_input("Enter another prime number (Not one you entered above): "))
     print("Generating your public/private keypairs now . . .")
     public, private = generate_keypair(p, q)
     print("Your public key is ", public ," and your private key is ", private)
-    message = input("Enter a message to encrypt with your private key: ")
+    message = raw_input("Enter a message to encrypt with your private key: ")
     encrypted_msg = encrypt(private, message)
     print("Your encrypted message is: ")
     print(''.join(map(lambda x: str(x), encrypted_msg)))

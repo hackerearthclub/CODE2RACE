@@ -8,7 +8,7 @@ import pytest
 
 @pytest.mark.skipif(sys.version_info < (3, 7), reason="requires Python >= 3.7")
 def test_hello():
-    with os.scandir("solutions") as it:
+    with os.scandir("SOLUTIONS") as it:
         for entry in it:
             name = entry.name.lower()
             if entry.is_file() and "hello" in name and os.path.splitext(name)[-1] == ".py":

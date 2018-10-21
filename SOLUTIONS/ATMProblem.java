@@ -6,7 +6,6 @@ import java.util.stream.Collectors;
 
 public class ATMProblem {
     public static void main(String ... args) {
-
         Scanner scanner = new Scanner(System.in);
         int testNums = Integer.parseInt(scanner.nextLine());
         StringBuilder sb = new StringBuilder();

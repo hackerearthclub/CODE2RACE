@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+try:
+    input = raw_input  # Python 2
+except:
+    pass               # Python 3
+
+
 def reverse(sentence):
     #Put in a tab
     tab = sentence.split(" ")
@@ -16,7 +22,7 @@ def reverse(sentence):
 
 
 if __name__ == "__main__":
-    sentence = raw_input("Enter a string : ")
+    sentence = input("Enter a string : ")
     newSentence = reverse(sentence)
     print(newSentence)
 

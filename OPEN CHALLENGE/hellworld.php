@@ -4,6 +4,6 @@
   <title>HELLO WORLD</title>
  </head>
  <body>
-  <?php echo '<p>Hello World</p>'; ?> 
+  <p>Hello <?= (isset($_GET['subject']) ? htmlentities($_GET['subject']) : 'World'); ?></p> 
  </body>
 </html>

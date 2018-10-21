@@ -31,4 +31,4 @@ def test_hello():
                 result = subprocess.run(["python3", entry.path], capture_output=True,
                                         check=True, text=True)
                 assert "hello world" in str(result.stdout).lower(), (
-                    entry.path + " did not contain 'hello world'."
+                    entry.path + " did not contain 'hello world'.")

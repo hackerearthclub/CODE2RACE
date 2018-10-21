@@ -27,7 +27,7 @@ def test_bottle():
         for entry in it:
             name = entry.name.lower()
             if entry.is_file() and "bottle" in name and os.path.splitext(name)[-1] == ".py":
-                if entry.path in ("SOLUTIONS/emptybottles.py", "SOLUTIONS/empty_bottles.py"):
+                if entry.path == "SOLUTIONS/emptybottles.py":
                     continue
                 print(entry.path)
                 result = subprocess.run(["python3", entry.path], input="1\n6\n20 40 50 90 100",

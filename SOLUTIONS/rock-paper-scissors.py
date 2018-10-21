@@ -3,6 +3,11 @@
 # Date: Oct 15th, 2018
 import random
 
+try:
+    input = raw_input  # Python 2
+except:
+    pass               # Python 2
+
 CHOICES = ["rock", "paper", "scissors"]
 
 def NewRound():
@@ -11,18 +16,18 @@ def NewRound():
         print("##########################################")
         print("Rock Paper Scissors v1")
         print("Would you like to play a round of rock-paper-scissors?")
-        answer = str(raw_input("Enter: (yes or no)\n"))
+        answer = str(input("Enter: (yes or no)\n"))
     return answer
 
 def PlayGame():
     player = ""
     while player not in CHOICES:
         print("Player1 choose your weapon:")
-        player = str(raw_input("rock paper or scissors?\n"))
+        player = str(input("rock paper or scissors?\n"))
     enemy = ""
     while enemy not in CHOICES:
         print("Player2 choose your weapon:")
-        enemy = str(raw_input("rock paper or scissors?\n"))
+        enemy = str(input("rock paper or scissors?\n"))
     
     GameResults(player, enemy)
 

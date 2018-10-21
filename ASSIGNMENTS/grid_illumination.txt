@@ -1,0 +1,9 @@
+# Grid Illumination: You are given an empty NxN grid and an array
+# of lamp coordinates. Each lamp provides illumination to every
+# square in their row, every square in their column, and every
+# square that lies in their diagonal (aka chess Queen). Given an
+# array of query coordinates, determine whether that point is
+# illuminated or not. The catch is that when checking a query
+# all lamps adjacent to, or on, that query get turned off.
+# The ranges for the variables/arrays were about:
+# 10^3 < N < 10^9, 10^3 < lamps < 10^9, 10^3 < queries < 10^9.

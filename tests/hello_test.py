@@ -3,7 +3,7 @@ import os
 import subprocess
 import sys
 
-if sys.version_info <= (3, 5):
+if sys.version_info <= (3, 7):
     sys.exit()
 
 with os.scandir("SOLUTIONS") as it:

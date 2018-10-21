@@ -9,6 +9,7 @@ matrix:
     - python: 3.7
       dist: xenial    # required for Python 3.7 (travis-ci/travis-ci#9069)
       sudo: required  # required for Python 3.7 (travis-ci/travis-ci#9069)
+      script: pytest  # only run on Python 3.7
 install:
   - pip install flake8 pytest
 before_script:
@@ -17,8 +18,7 @@ before_script:
   # exit-zero treats all errors as warnings.  The GitHub editor is 127 chars wide
   - flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 script:
-  - python tests/hello_test.py
-  - pytest
+  - true
 notifications:
   on_success: change
-on_failure: change  # `always` will be the setting once code changes slow down
+  on_failure: change  # `always` will be the setting once code changes slow down

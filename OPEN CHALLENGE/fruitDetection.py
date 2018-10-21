@@ -162,7 +162,7 @@ def Orangecheck(x):
 
         return fruit
 
-    elif orangeSize == "not detected":
+    # elif orangeSize == "not detected":
 
     return "not detected"
 

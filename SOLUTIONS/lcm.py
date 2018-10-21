@@ -1,5 +1,5 @@
-//ARRAY 
-//LCM AND GCD
+# ARRAY 
+# LCM AND GCD
 def find_lcm(num1, num2): 
     if(num1>num2): 
         num = num1 

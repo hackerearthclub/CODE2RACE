@@ -1,2 +1,1 @@
-# Print string to terminal
-print('Hello world!')
+print("Hello World")

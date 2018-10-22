@@ -1,4 +1,5 @@
-  def reverseWords(input): 
+from __future__ import print_function
+def reverseWords(input): 
       
     # split words of string separated by space 
     inputWords = input.split(" ") 
@@ -20,4 +21,4 @@
   
 if __name__ == "__main__": 
     input = 'geeks quiz practice code'
-    print reverseWords(input) 
+    print(reverseWords(input)) 

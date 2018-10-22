@@ -11,7 +11,7 @@ def _lcm(a,b):
     den=rem
     rem=num%den
   gcd=den
-  lcm=_int(int(a*b)/int(gcd))
+  lcm=int(int(a*b)/int(gcd))
   return lcm
 def _gcd(c,d):
   while(d):

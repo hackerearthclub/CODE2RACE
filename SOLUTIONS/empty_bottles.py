@@ -32,7 +32,8 @@ if __name__ == '__main__':
         test_case = test_case - 1
     # uncomment bottom line to test
     # unittest.main()
-for test in range(int(input())):
-    N=int(input())
-    org=list(map(int,input().split()))
-    print(sum(org)//100)
+
+#for test in range(int(input())):
+#    N=int(input())
+#    org=list(map(int,input().split()))
+#    print(sum(org)//100)

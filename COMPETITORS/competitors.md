@@ -43,3 +43,7 @@ Member List
 ### Connor Smith
 - [Titdirt](https://github.com/titdirt)
 ---
+
+##Idácio Dad
+- [idacioDad](https://github.com/idacioDad)
+---

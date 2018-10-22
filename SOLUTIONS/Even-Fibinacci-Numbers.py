@@ -12,4 +12,4 @@ for a in range(0, arg):
 		if third % 2 == 0:
 			sumOfEvenValues += third
 		first, second = second, third
-	print sumOfEvenValues
+	print(sumOfEvenValues)

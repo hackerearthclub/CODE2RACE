@@ -1,0 +1,42 @@
+#EvenFibonnaciGenPython
+
+def FibEve():  #Fibonnaci Generator
+    n=int(input('Please enter number below which you want Fibonnacis, 10≤ N ≤ 4*10^16'))
+    if 10 <= n <= 4*10**16:
+        global count
+        l=[1,1]
+        m=[]
+        i=2
+        while (l[len(l)-1]+l[len(l)-2])<n:
+            l.append(l[len(l)-1]+l[len(l)-2])
+            i+=1
+    
+        m=list(l)         #Copy of l: list m
+ 
+        count=0
+        def Even(count):  #Function to check eveness of Fibonnaci numbers
+        
+            if count<len(m):
+            
+                if m[count]%2!=0:
+                    l.remove(l[l.index(m[count])])   # From copy (m) of original list l, indexes of those which are not even in l are chosen and removed
+                Even(count+1)
+            else:
+                return sum(l)
+        Even(0)
+ 
+        return sum(l)
+
+    else:
+        return("Please enter number in specified range only")
+
+
+newl=[]
+numb=int(input('Enter T, 1≤ T ≤ 10^5'))
+if 1 <= numb <= 10^5:
+    for i in range(1,int(numb)+1):
+        newl.append(FibEve())   #Appends all Even Fibonnaci sums to list newl
+    for i in range(0,len(newl)):
+        print(newl[i])          #Prints all of them together
+else:
+    print('Enter number in given range')

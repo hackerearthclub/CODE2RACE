@@ -17,7 +17,7 @@ class BirthdayParty {
     public static int query(List<BirthdayGuest> birthdayGuestList, int time) {
         int count = 0;
         for (BirthdayGuest guest : birthdayGuestList) {
-            if (time >= guest.getArrivalTime() && time <= guest.getDepartureTime()) {
+            if (time >= guest.getArrivaltime() && time <= guest.getDepartureTime()) {
                 count ++;
             }
         }
@@ -26,15 +26,15 @@ class BirthdayParty {
 }
 
 class BirthdayGuest {
-    private int arrivalTime, departureTime;
+    private int arrivaltime, departureTime;
 
     BirthdayGuest(int arrivalTime, int departureTime) {
-        this.arrivalTime = arrivalTime;
+        this.arrivaltime = arrivaltime;
         this.departureTime = departureTime;
     }
 
     public int getArrivalTime() {
-        return this.arrivalTime;
+        return this.arrivaltime;
     }
 
     public int getDepartureTime() {
@@ -43,7 +43,7 @@ class BirthdayGuest {
 
     public String toString() {
         String out = "BirthdayGuest(%d, %d)";
-        return String.format(out, this.getArrivalTime(), this.getDepartureTime());
+        return String.format(out, this.getArrivaltime(), this.getDepartureTime());
     }
 }
 

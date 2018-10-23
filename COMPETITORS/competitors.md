@@ -43,3 +43,7 @@ Member List
 ### Connor Smith
 - [Titdirt](https://github.com/titdirt)
 ---
+
+#### Bec Braughton
+- [beckton](https://github.com/beckton)
+---

@@ -1,0 +1,6 @@
+public String FormatToIDR(String currency){
+        Locale localeID = new Locale("in","ID");
+        NumberFormat format = NumberFormat.getCurrencyInstance(localeID);
+
+        return format.format(Double.parseDouble(currency));
+    }

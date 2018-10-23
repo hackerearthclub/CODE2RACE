@@ -1,0 +1,19 @@
+//create a address mail like a name.surname@domen
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
+	string name, surname, domen, mail;
+	cin >> name;
+	cin >> surname;
+	cin >> domen;
+	name[0]=tolower(name[0]);
+	surname[0]=tolower(surname[0]);
+	domen[0]=tolower(domen[0]);
+	m = i + "." + n + "@" +d;
+	cout << m;
+	return 0;
+}

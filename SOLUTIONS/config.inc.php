@@ -12,6 +12,5 @@ try {
 catch(PDOException $e)
     {
     	die("OOPs something went wrong");
-    }
-
+}
 ?>

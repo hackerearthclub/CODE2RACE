@@ -1,4 +1,4 @@
-# CODE2RACE --- Dive into coding world 
+﻿# CODE2RACE --- Dive into coding world 
 # Let's celebrate HacktoberFest 😎
 Register for the hacktober fest https://hacktoberfest.digitalocean.com/
 ⭐
@@ -14,7 +14,7 @@ You are free to choose any language you wish. <br>
 #### ADD YOUR OWN FILE OF CODE. No editings in previous code.😊
 You may also add reference of question you have solved in your PR description : 
 ####  #[issue no] 
-
+hi there
 Guidelines
 ==========
 

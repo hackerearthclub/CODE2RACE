@@ -19,6 +19,9 @@ Member List
 #### Farzan F A
 - [farzanfa](https://github.com/Farzanfa)
 ---
+#### Narender Singh Yadav
+- [narendersinghyadav](https://github.com/narendersinghyadav)
+---
 
 #### Mohammed Faizaan Muzawar
 - [faizaan-mm](https://github.com/faizaan-mm)
@@ -47,3 +50,8 @@ Member List
 ##Idácio Dad
 - [idacioDad](https://github.com/idacioDad)
 ---
+
+### Tanya Sah
+- [tsah20](https://github.com/tsah20)
+---
+

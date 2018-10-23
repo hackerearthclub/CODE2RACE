@@ -47,6 +47,9 @@ Member List
 - [Titdirt](https://github.com/titdirt)
 ---
 
+##Idácio Dad
+- [idacioDad](https://github.com/idacioDad)
+---
 #### Munawar Villan
 - [mvillan10](https://github.com/mvillan10)
 ---

@@ -43,3 +43,7 @@ Member List
 ### Connor Smith
 - [Titdirt](https://github.com/titdirt)
 ---
+
+### Tanya Sah
+- [tsah20](https://github.com/tsah20)
+---

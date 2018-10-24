@@ -1,0 +1,28 @@
+def Npower(pow):
+    sumer=0  
+    for i in range(10**(pow-1),(10**(pow))+1):   #Restrict loop to only possible numbers, since for example, restricting i to (100,1000) when pow is 3 
+        
+        i=str(i)
+        sum=0
+        
+   
+         
+        for j in range(0,len(i)):
+            
+                
+        
+            sum=sum+int(i[j])**pow
+            
+        if sum==int(i):
+            
+            sumer=sumer+int(i)
+            
+        i=int(i)
+    print(sumer)             #Sums the required numbers
+        
+            
+inp=int(input('Please enter number'))
+if 3<=inp<=6:
+    Npower(inp)
+else:
+    print('Invalid number, enter number only such that 3≤ N ≤ 6 ')

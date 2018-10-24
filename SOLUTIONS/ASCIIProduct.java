@@ -1,10 +1,9 @@
-public static void main(String[] args) {
-    String str = "YA";
-    int result = 1;
+import java.util.Scanner;
 
-    for (int x = 0; x < str.length(); x++) {
-        result = result * (int) str.charAt(x);
+public class AsciiProduct {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int result = scanner.nextLine().chars().reduce((c1, c2) -> c1 * c2).getAsInt();
+        System.out.print(result);
     }
-
-    System.out.println(result);
 }

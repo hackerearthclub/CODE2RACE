@@ -1,7 +1,6 @@
 
 
 
-
 ntcases = int(input("Please type the number of test cases: "))
 for i in range(ntcases):
     binaryString = input("Please type a binary number: ")

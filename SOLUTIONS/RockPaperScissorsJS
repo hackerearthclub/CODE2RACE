@@ -1,0 +1,31 @@
+const play = (selection) => {
+  const computer = Math.floor(Math.random() * 3);
+  const choices = ['ROCK', 'PAPER', 'SCISSORS'];
+  let playerschoice = selection.toUpperCase();
+  
+  if (playerschoice === choices[computer]) {
+    return "It's a TIE!!";
+  } else {
+    if (playerschoice === 'ROCK') {
+      if (choices[computer] === 'SCISSORS') {
+        return "Player: ROCK... Computer: SCISSORS... You WIN!!";
+      } else {
+        return "Player: ROCK... Computer: PAPER... You LOSE....";
+      }
+    } else if (playerschoice === 'PAPER') {
+      if (choices[computer] === 'ROCK') {
+        return "Player: PAPER... Computer: ROCK... You WIN!!";
+      } else {
+        return "Player: PAPER... Computer: SCISSORS... You LOSE....";
+      }
+    } else if (playerschoice === 'SCISSORS') {
+      if (choices[computer] === 'PAPER') {
+        return "Player: SCISSORS... Computer: PAPER... You WIN!!";
+      } else {
+        return "Player: SCISSORS... Computer: ROCK... You LOSE....";
+      }
+    } else {
+    return 'Pick a Valid option';
+    }
+  }    
+};

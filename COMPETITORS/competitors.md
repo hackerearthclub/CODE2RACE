@@ -51,6 +51,11 @@
 - [Titdirt](https://github.com/titdirt)
 ---
 
+
+##Idácio Dad
+- [idacioDad](https://github.com/idacioDad)
+---
+
 #### Bec Braughton
 - [beckton](https://github.com/beckton)
 ---
@@ -61,11 +66,15 @@
 - [mvillan10](https://github.com/mvillan10)
 ---
 
+
 ### Tanya Sah
 - [tsah20](https://github.com/tsah20)
 ---
+
+
 
 ### Jonathan Zhang
 - [jonathanzhang53](https://github.com/jonathanzhang53)
 
 ---
+

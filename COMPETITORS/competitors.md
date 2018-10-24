@@ -1,4 +1,4 @@
-Member List
+﻿Member List
 ===========
 #### Diego Bernal
 - [diego95root](https://github.com/diego95root)
@@ -18,6 +18,9 @@ Member List
 
 #### Farzan F A
 - [farzanfa](https://github.com/Farzanfa)
+---
+#### Narender Singh Yadav
+- [narendersinghyadav](https://github.com/narendersinghyadav)
 ---
 
 #### Mohammed Faizaan Muzawar
@@ -39,6 +42,30 @@ Member List
 #### uf0h
 - [uf0h](https://github.com/uf0h)
 ---
+
 #### Saba Younis
 - [Saba Younis](https://github.com/sabayounis)
+
+
+### Connor Smith
+- [Titdirt](https://github.com/titdirt)
+---
+
+#### Bec Braughton
+- [beckton](https://github.com/beckton)
+---
+##Idácio Dad
+- [idacioDad](https://github.com/idacioDad)
+---
+#### Munawar Villan
+- [mvillan10](https://github.com/mvillan10)
+---
+
+### Tanya Sah
+- [tsah20](https://github.com/tsah20)
+---
+
+### Jonathan Zhang
+- [jonathanzhang53](https://github.com/jonathanzhang53)
+
 ---

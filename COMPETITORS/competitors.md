@@ -1,4 +1,4 @@
-Member List
+﻿Member List
 ===========
 #### Diego Bernal
 - [diego95root](https://github.com/diego95root)
@@ -58,3 +58,6 @@ Member List
 - [tsah20](https://github.com/tsah20)
 ---
 
+### Jonathan Zhang
+- [jonathanzhang53](https://github.com/jonathanzhang53)
+---

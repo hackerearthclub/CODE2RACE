@@ -47,6 +47,9 @@
 - [Titdirt](https://github.com/titdirt)
 ---
 
+#### Bec Braughton
+- [beckton](https://github.com/beckton)
+---
 ##Idácio Dad
 - [idacioDad](https://github.com/idacioDad)
 ---

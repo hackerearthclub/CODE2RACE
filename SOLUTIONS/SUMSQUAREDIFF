@@ -1,0 +1,19 @@
+def sqsm(n):
+    sum1=0
+    sum2=0
+    for i in range(n+1):
+        sum1=sum1+i**2
+        sum2=sum2+i
+    sum2=sum2**2
+    print(abs(sum1-sum2))
+    
+inpu=input('Please enter test cases')
+if  1 <= int(inpu) <= 10^4:
+    
+    l=[]
+    for i in range(1,int(inpu)+1):
+        lient=input('Please enter number')
+        if 1<=int(lient)<=10^4:
+          l.append(int(lient))
+    for i in range(0,len(l)):
+        sqsm(l[i])

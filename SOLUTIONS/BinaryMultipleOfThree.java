@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class BinaryMultipleOfThree {
+
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		int T = scn.nextInt();
@@ -30,4 +31,5 @@ public class BinaryMultipleOfThree {
 		return ans;
 	}
 	
+
 }

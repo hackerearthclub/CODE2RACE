@@ -10,7 +10,7 @@ Remember the rules:
 #include <iostream>
 
 using namespace std;
-
+``` C
 int main()
 {
 	char k1, k2;
@@ -25,3 +25,4 @@ int main()
 	else if ((k1 == 'R' && k2 == 'S') || (k1 == 'S' && k2 == 'P') || (k1 == 'P' && k2 == 'R')) cout << "Congrat player 1, you won !!!";
 	else cout << "Congrat player 2, you won !!!";
 }
+```

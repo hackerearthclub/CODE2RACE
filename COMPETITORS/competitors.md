@@ -1,5 +1,5 @@
 ﻿Member List
-===========
+ 
 #### Diego Bernal
 - [diego95root](https://github.com/diego95root)
 ---
@@ -84,6 +84,9 @@
 
 ### Jonathan Zhang
 - [jonathanzhang53](https://github.com/jonathanzhang53)
+
+### Maaruf Dauda
+- [emkayDauda](https://github.com/emkayDauda)
 
 ---
 

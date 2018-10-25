@@ -1,3 +1,3 @@
 function helloGuadalajara () {
-  console.log(' Hello world! From Guadalajara, Jalisco')
+  console.log(' Hello world! From Guadalajara, Jalisco, Mexico')
 }

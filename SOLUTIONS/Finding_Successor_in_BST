@@ -1,0 +1,24 @@
+public BSTNode findSuccessor(BSTNode root, BSTNode target) {
+          
+  if(target.right != null) { // if target has a right child, we can go on just by checking for the leftest node in the right subtree.
+      BSTNode min = root;
+      while(root != null) 
+           min = min.left;
+      return min;
+  }
+  
+  // if target doesn't have right child, we will go down starting from root till the target node. While going down, we will check
+  the deepest number that is greater than the target.
+  BSTNode successor;
+  while(root != null) {
+    if(target == root) // That means we reach to the target and we have already found the successor.
+      break;
+    else if(target.data < root.data) {
+      successor = root;
+      root = root.left;
+    }
+    else // if target's data is greater than the root's data.
+      root = root.right;
+  }
+ return successor;
+}

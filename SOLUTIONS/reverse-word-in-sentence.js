@@ -7,3 +7,8 @@ let reversedWord = function reverse(word){
   console.log(reversed.join(' '))
 }
 reversedWord('My name is Michele')  // Michelle is name My
+
+
+
+
+

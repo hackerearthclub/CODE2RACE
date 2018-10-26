@@ -1,8 +1,9 @@
-inputString = input()
+# author: Higor Santos de Brito Dantas
 
-result = 1
+string = raw_input()
+product = 1
 
-for i in range(len(inputString)) :
-    result = result * ord(inputString[i])
+for e in string:
+    product *= ord(e)
 
-print(result)
+print product

@@ -1,7 +1,7 @@
-#include<iostream>
+#        include  <iostream>
 using namespace std;
-int main()
+int main(void)
 {
 cout<<"HELLO WORLD!"<<endl;
-return 0;
+return 3;
 }

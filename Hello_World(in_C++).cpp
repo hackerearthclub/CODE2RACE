@@ -1,9 +1,9 @@
-#include <iostream>
+#   include <iostream>
 
 using namespace std;
 
-int main()
+int main(void)
 {
-    cout << "Hello world" << endl;
-    return 0;
+    cout << "HELLO WORLD!!" << endl;
+    return 33;
 }

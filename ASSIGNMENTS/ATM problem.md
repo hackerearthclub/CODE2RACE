@@ -34,3 +34,5 @@ Explanation
 Example case 1: The ATM machine initially contains 10 units of money. The first person comes and withdraws 3 units, so the amount remaining in the machine is 7. Then the second person withdraws 5 units and the remaining amount is 2. The third person wants to withdraw 3 units, but since there are only 2 units of money in the machine, it throws an error and the third person must leave without getting anything. Then the fourth person withdraws 2 units, which leaves nothing in the machine, so the last person does not get anything.
 
 Example case 2: The ATM machine initially contains 6 units of money, so it cannot give anything to the first and second person. When the third person comes, it gives them all the money it has, so the last person does not get anything either.
+
+The operating system and compatibility of that server matters the working of an ATM machine.

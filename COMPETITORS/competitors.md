@@ -123,3 +123,7 @@
 - [ahdhani](https://github.com/ahdhani)
 ---
 
+### Ted Jacobs
+- [tedjacobs](https://github.com/tedjacobs)
+---
+

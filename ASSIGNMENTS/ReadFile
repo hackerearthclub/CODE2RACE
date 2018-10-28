@@ -1,1 +1,1 @@
-This program should read text from a file and stores it in a string until enter 'newline' character is encountered.
+This program should read text from a file and stores it in a string until enter 'newline' character is encountered/assigned.

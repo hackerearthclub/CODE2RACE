@@ -1,0 +1,17 @@
+for _ in range(int(input())):
+	s = input()
+	ans = 'safe'
+	arr = []
+	for i in range(len(s)):
+		if s[i] != '.':
+			if s[i] == '0':
+				arr.append(i)
+			else:
+				arr.append(i-int(s[i]))
+				arr.append(i+int(s[i]))
+	for i in range(len(arr)-1):
+		if arr[i+1] - arr[i] <= 0:
+			ans = 'unsafe'
+			break
+			
+	print(ans)

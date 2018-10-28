@@ -1,5 +1,9 @@
 ﻿Member List
  
+###Shreyansh Saurabh
+- [binaryshrey](https://github.com/binaryshrey)
+---
+
 #### Diego Bernal
 - [diego95root](https://github.com/diego95root)
 ---
@@ -74,6 +78,9 @@
 ### Tanya Sah
 - [tsah20](https://github.com/tsah20)
 ---
+
+### Shivam Kumar
+- [shivampkumar](https://github.com/shivampkumar)
 
 
 ### Annas Amer

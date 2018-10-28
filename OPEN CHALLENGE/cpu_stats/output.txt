@@ -1,0 +1,17 @@
+-------- PLATFORM INFORMATION --------
+OS:  Windows-10-10.0.17134-SP0
+Version:  10.0.17134
+Processor:  Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+-------- CPU INFORMATION ---------
+CPU Count:  4
+CPU 0     CPU 1     CPU 2     CPU 3
+3.3       13.3      6.7       6.7
+------- BATTERY INFORMATION -------
+charge:     100%
+status:     fully charged
+plugged in: yes
+--------- MEMORY INFORMATION (in MB)--------
+     total       used       free     shared    buffers      cache
+   8269412    6053624    2215788          0          0          0
+
+percent:  73.2 %

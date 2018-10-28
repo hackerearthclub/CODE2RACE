@@ -1,0 +1,14 @@
+# Beginners Problem 2.0
+Our juniors has just entered in coding community. Their first task is to find the frequency of Best numbers present in given list of elements. Best numbers are numbers which are divisible by 2.
+
+SAMPLE INPUT 
+2
+5
+1 2 3 4 5
+3
+1 3 5
+SAMPLE OUTPUT 
+2
+0
+Explanation
+Number of test cases=2 1st test case, number of elements =5 Best numbers are 2 , 4 ; frequency=2 2nd test case, number of elements =3 No Best numbers

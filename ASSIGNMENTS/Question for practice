@@ -1,0 +1,17 @@
+# Question for practice
+Joseph came across the next question , which asked him to check if the word spelt the same backwards .
+
+A simple enough question , he started to solve the question only to be constrained by language allowed.
+
+(Input a string (of character <80) from the user and print whether the string is a palindrome or not.
+
+Assume no spaces between characters.) Sample Input: eergreejj
+
+Sample Output: Not At All
+
+(If it is a palindrome - print "Indeed")
+
+SAMPLE INPUT 
+eergreejj
+SAMPLE OUTPUT 
+Not At All

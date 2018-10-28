@@ -3,6 +3,9 @@
 ###Shreyansh Saurabh
 - [binaryshrey](https://github.com/binaryshrey)
 ---
+#### Amulya Gaur
+- [amulyagaur](https://github.com/amulyagaur)
+---
 
 #### Diego Bernal
 - [diego95root](https://github.com/diego95root)

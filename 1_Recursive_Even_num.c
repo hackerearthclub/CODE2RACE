@@ -1,4 +1,4 @@
-// Recursive Algorithm to find the kth Even Natural Number
+// Recursive Algorithm to find the kth Even Natural Numbers
 
 #include <stdio.h>
 // Function to find the kth Even Natural Number

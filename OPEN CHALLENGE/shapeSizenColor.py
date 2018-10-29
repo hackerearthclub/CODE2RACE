@@ -1,3 +1,4 @@
+from __future__ import print_function
 
 #classes and subclasses to import
 import cv2
@@ -646,7 +647,7 @@ if __name__ == "__main__":
         filep.close()
         #process the image
         data = main(fp)
-        print data
+        print(data)
         #open the csv
         filep = open('results1B_943.csv','a')
         #make a newline entry so that the next image data is written on a newline

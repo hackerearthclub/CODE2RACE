@@ -1,5 +1,12 @@
 ﻿Member List
  
+###Shreyansh Saurabh
+- [binaryshrey](https://github.com/binaryshrey)
+---
+#### Amulya Gaur
+- [amulyagaur](https://github.com/amulyagaur)
+---
+
 #### Diego Bernal
 - [diego95root](https://github.com/diego95root)
 ---
@@ -29,6 +36,10 @@
 
 #### GALLERIA
 - [Galleria](https://github.com/Galleria)
+---
+
+#### AMAN NIM
+- [AMAN NIM](https://github.com/AmanNim98)
 ---
 
 ### Vyshnavy
@@ -71,6 +82,9 @@
 - [tsah20](https://github.com/tsah20)
 ---
 
+### Shivam Kumar
+- [shivampkumar](https://github.com/shivampkumar)
+
 
 ### Annas Amer
 - [annasamer3](https://github.com/annasamer3)
@@ -90,4 +104,22 @@
 
 ---
 
+#### Pavlina Mitsou
+- [Pavlmits](https://github.com/Pavlmits)
+---
+
+
+### Raj Shah
+- [rajshah9914](https://github.com/rajshah9914)
+---
+
+
+### Ayushi Jain
+- [ayushijain218](https://github.com/ayushijain218)
+---
+
+
+### Ahammad Hani
+- [ahdhani](https://github.com/ahdhani)
+---
 

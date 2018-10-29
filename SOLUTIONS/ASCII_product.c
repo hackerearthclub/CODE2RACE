@@ -4,7 +4,7 @@
 
 int	main(void)
 {
-	char str[64];
+	char str=(char*)malloc(64*sizeof(char));
 	printf("Enter characters : ");
 	gets(str);
 	int len = strlen(str)-1;

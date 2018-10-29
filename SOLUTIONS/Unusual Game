@@ -1,0 +1,33 @@
+import numpy as np
+T=int(input("No.of Test Cases"))
+for i in range (1,T+1):
+    s=input("n and m")
+    n,m=s.split()
+    n=int(n)
+    m=int(m)
+    k=input("m space seperated integers")
+    l=np.zeros(m)
+    for j in range (1, m+1):
+        p=j
+        count=1
+        win=0
+        
+        x=1
+        while (count==1):
+            a=p+x
+            if (a<=n):
+                p=a
+                x=x+1
+            else:
+                a=p-x
+                if (a>=1):
+                    p=a
+                    x=x+1
+                else:
+                    count=0
+        if (x%2==0):
+            win=1
+        else:
+            win=2
+        l[j-1]=win
+print(l)

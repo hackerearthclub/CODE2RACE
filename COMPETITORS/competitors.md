@@ -46,6 +46,10 @@
 - [Vyshnavy](https://github.com/vyshnavy)
 ---
 
+#### HIMANSHI SINGHAL
+- [HIMANSHI SINGHAL](https://github.com/himanshisinghal09)
+---
+
 ### Annalaura Ianiro
 - [Al1190](https://github.com/al1190)
 ---

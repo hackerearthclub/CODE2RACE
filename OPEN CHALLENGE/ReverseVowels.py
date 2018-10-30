@@ -15,4 +15,4 @@ for vow_list in vow_lists:
     str_lists.pop(pos_lists[count])
     str_lists.insert(pos_lists[count], vow_list)
     count-=1
-print (''.join(str_lists))
+print(''.join(str_lists))

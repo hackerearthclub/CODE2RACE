@@ -1,4 +1,5 @@
-# CODE2RACE --- Dive into a coding world 
+# CODE2RACE --- Dive into a coding world
+[![Gitter](https://img.shields.io/gitter/room/bvphec/Lobby.svg?style=flat-square)](https://gitter.im/bvphec/Lobby)
 
 ## Questions will be given as an issue. 😁
 Access the problem statement in assignment subdirectory.
@@ -15,7 +16,5 @@ Make a PR for the solution to the question, specify the issue number in the comm
 <br><br>
 
 ## IF YOU LIKE US, GIVE THIS REPOSITORY A ⭐.
-#### Join the Gitter discussion room  <br>
-https://gitter.im/bvphec/Lobby
 
 ## NOTE - Only valid PR's related to issues will be merged.

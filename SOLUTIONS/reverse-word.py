@@ -1,10 +1,8 @@
-def main():
-    userInput = input('Enter a string with multiple words: ')
-    wordsArr = userInput.split(' ')
-    reversedWord = '';
-    for word in reversed(wordsArr):
-    	reversedWord += word + ' '
-    print(reversedWord)
+def reverse_word():
+    s = input("Enter a sentence containing multiple words: ").strip()
+    s = s.split()[::-1]
+    print(s)
+    s = " ".join(s)
+    return s
 
-if __name__ == '__main__':
-    main()
+print(reverse_word())

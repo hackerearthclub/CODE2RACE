@@ -32,7 +32,7 @@ class Best_Numbers{
 			}
 			System.out.println("\nfrequency: "+sum);
 			if(sum == 0)
-				System.out.println("No best Numbers");
+				System.out.println("No best Numbers"); //print something else
 		}
 		
 		

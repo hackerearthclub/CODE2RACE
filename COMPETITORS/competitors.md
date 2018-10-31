@@ -1,5 +1,5 @@
 ﻿Member List
- 
+
 ###Shreyansh Saurabh
 - [binaryshrey](https://github.com/binaryshrey)
 ---
@@ -32,6 +32,10 @@
 
 #### Mohammed Faizaan Muzawar
 - [faizaan-mm](https://github.com/faizaan-mm)
+---
+
+#### Akshat Aggarwal
+- [AkshatAggEm](https://github.com/AkshatAggEm)
 ---
 
 #### GALLERIA
@@ -128,4 +132,8 @@
 ---
 ### Boughaba Otmane
 - [Otman404](https://github.com/Otman404)
+---
+
+### Chid
+- [pvcpre](https://github.com/pvcpre)
 ---

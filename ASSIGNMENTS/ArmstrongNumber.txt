@@ -1,0 +1,22 @@
+**Find given number is an armstrong number or not?
+Armstrong Number
+Input Number: 153
+              1=>1*1*1=1 
+              5=>5*5*5=125
+              3=> 3*3*3=27
+         Sum=>1+125+27=153
+  i.e; 153 is an armstrong number
+ 
+ Output:
+153 is an armstrong number.
+
+Input Number:125
+              1=>1*1*1=1 
+               2=> 2*2*2=8
+              5=>5*5*5=125
+         Sum=>1+8+125!=125
+  i.e; 153 is not  an armstrong number
+ 
+ Output:
+125 is not an armstrong number.
+       

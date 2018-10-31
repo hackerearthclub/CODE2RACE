@@ -1,7 +1,6 @@
-s = input().strip(".").split(" ")
-s.reverse()
-for i in range(len(s)):
-	if i != (len(s) - 1):
-		print(s[i],end=" ")
-	else:
-		print(s[i],end=".")
+#Get User word
+user_input= raw_input("Please input your word ")
+#reverse the user input
+reverse_user_input =user_input[::-1]
+#Print the reverse word
+print ("This is reverse of your word : " + reverse_user_input)

@@ -137,3 +137,7 @@
 ### Chid
 - [pvcpre](https://github.com/pvcpre)
 ---
+
+### Kevin Rojas
+- [kevinrb](https://github.com/kevinrb)
+---

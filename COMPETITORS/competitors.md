@@ -1,5 +1,5 @@
 ﻿Member List
- 
+
 ###Shreyansh Saurabh
 - [binaryshrey](https://github.com/binaryshrey)
 ---
@@ -32,6 +32,10 @@
 
 #### Mohammed Faizaan Muzawar
 - [faizaan-mm](https://github.com/faizaan-mm)
+---
+
+#### Akshat Aggarwal
+- [AkshatAggEm](https://github.com/AkshatAggEm)
 ---
 
 #### GALLERIA
@@ -134,3 +138,10 @@
 - [Navds](https://github.com/Navds)
 ---
 
+### Chid
+- [pvcpre](https://github.com/pvcpre)
+---
+
+### Kevin Rojas
+- [kevinrb](https://github.com/kevinrb)
+---

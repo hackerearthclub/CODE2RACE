@@ -1,5 +1,5 @@
 ﻿Member List
- 
+
 ###Shreyansh Saurabh
 - [binaryshrey](https://github.com/binaryshrey)
 ---
@@ -34,6 +34,10 @@
 - [faizaan-mm](https://github.com/faizaan-mm)
 ---
 
+#### Akshat Aggarwal
+- [AkshatAggEm](https://github.com/AkshatAggEm)
+---
+
 #### GALLERIA
 - [Galleria](https://github.com/Galleria)
 ---
@@ -44,6 +48,10 @@
 
 ### Vyshnavy
 - [Vyshnavy](https://github.com/vyshnavy)
+---
+
+#### HIMANSHI SINGHAL
+- [HIMANSHI SINGHAL](https://github.com/himanshisinghal09)
 ---
 
 ### Annalaura Ianiro
@@ -122,8 +130,25 @@
 ### Ahammad Hani
 - [ahdhani](https://github.com/ahdhani)
 ---
+### Boughaba Otmane
+- [Otman404](https://github.com/Otman404)
+---
+
 
 
 ### Melvin Abraham
 - [melvinabraham](https://github.com/melvinabraham)
 ---
+
+### Navalona Ramanantoanina
+- [Navds](https://github.com/Navds)
+---
+
+### Chid
+- [pvcpre](https://github.com/pvcpre)
+---
+
+### Kevin Rojas
+- [kevinrb](https://github.com/kevinrb)
+---
+

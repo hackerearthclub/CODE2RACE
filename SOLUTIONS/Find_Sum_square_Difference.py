@@ -1,34 +1,21 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
+def sum_square_diff(N):
+  sum1 = 0
+  sum2 = 0
+  for num in range(1, N+1):
+    sum1 += num ** 2
 
-This is a temporary script file.
-"""
+  for num in range(1, N+1):
+    sum2 += num
 
-message = "Pick a number:"
-a = input(message)
-a = int(a)
+  sum2 = sum2 ** 2
+  return abs(sum1-sum2)
 
-if a > 10**4:
-    print("Number needs to be less than 10,000")
+N_list = []
+T = int(input())
 
-if a <= 10**4:
-    
-    #computing the sum of the squares
-    somma_square = 0
-    for i in range(1,a+1):
-        square1 = i**2
-        somma_square1 = somma_square + square1
-        somma_square = somma_square1
-    
-    #computing the square of the sum
-    somma = 0
-    for i in range(1,a+1):
-        somma1 = somma + i
-        somma = somma1
-        square_somma = somma**2
-    
-    #taking the absolute value of the difference
-    diff = abs(somma_square - square_somma)
-    print(diff)
-    
+for _ in range(T):
+  N = int(input())
+  N_list.append(N)
+  
+for N in N_list:
+  print(sum_square_diff(N), end="\n") 

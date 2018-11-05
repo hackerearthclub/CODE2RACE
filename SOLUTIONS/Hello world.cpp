@@ -1,7 +1,5 @@
-#include<iostream>
-using namespace std;
-int main()
+#include<iostream.h>
+void main()
 {
-cout<<"HELLO WORLD!"<<endl;
-return 0;
+cout<<"Hello world";
 }

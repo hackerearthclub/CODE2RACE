@@ -10,5 +10,10 @@ Output : 6059
 Input : str = "GfG"
 Output : 514182
 
+
 Input : str = "ab"
 Output : 9506
+
+Input: str="AB"
+Output: 4290 
+

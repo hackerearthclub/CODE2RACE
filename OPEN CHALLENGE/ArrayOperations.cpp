@@ -1,5 +1,6 @@
 #include<iostream>
 #include<cstdlib>
+#include<iostream.h>
 #include<ctime>
 using namespace std;
 class arrays{
@@ -41,7 +42,7 @@ void arrays::search_l(int *&arr,int num)
 		first = middle + 1; }
 	   else if(arr[middle] == a)
 	   {
-		cout<<a<<" found in the array at the location "<<middle+1<<"\n";
+		cout<<a<<" pull found in the array at the location  "<<middle+1<<"\n";
                 break; }
            else {
                 last = middle - 1; }

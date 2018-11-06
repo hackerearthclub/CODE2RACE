@@ -23,8 +23,8 @@ def test_ascii():
 
 @pytest.mark.skipif(sys.version_info < (3, 7), reason="requires Python >= 3.7")
 def test_bottle():
-    for direcotry in ("SOLUTIONS", "OPEN CHALLENGE"):
-        with os.scandir(direcotry) as it:
+    for directory in ("SOLUTIONS", "OPEN CHALLENGE"):
+        with os.scandir(directory) as it:
             for entry in it:
                 name = entry.name.lower()
                 if entry.is_file() and "bottle" in name and os.path.splitext(name)[-1] == ".py":
@@ -38,8 +38,8 @@ def test_bottle():
 
 @pytest.mark.skipif(sys.version_info < (3, 7), reason="requires Python >= 3.7")
 def test_hello():
-    for direcotry in ("SOLUTIONS", "OPEN CHALLENGE"):
-        with os.scandir(direcotry) as it:
+    for directory in ("SOLUTIONS", "OPEN CHALLENGE"):
+        with os.scandir(directory) as it:
             for entry in it:
                 name = entry.name.lower()
                 if entry.is_file() and "hello" in name and os.path.splitext(name)[-1] == ".py":

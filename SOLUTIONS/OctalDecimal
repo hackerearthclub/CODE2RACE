@@ -1,0 +1,49 @@
+import java.util.*;                                                     // import scanner class
+public class switchclass {
+
+    public static void main(String args[])
+    {
+        int ch,dec,num,rem,oct,decnum=0,orig,i=0;
+        char dig[]={'0','1','2','3','4','5','6','7'};
+        String str="";
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter your choice :");
+        // choice==1 for dec to oct
+        // choice==2 for oct to dec
+        ch=obj.nextInt();
+
+        if(ch==1)
+        {
+            System.out.println("Enter a decimal number :");
+            num=obj.nextInt();
+            while(num>0)
+            {
+                rem=num%8;
+                str=dig[rem]+str;
+                num=num/8;
+            }
+            System.out.println("Decimal to octal: "+str);
+        }
+        else if(ch==2)
+        {
+            System.out.println("Enter an octal number :");
+            oct=obj.nextInt();
+            orig = oct;
+
+            while(oct != 0)
+            {
+                decnum = decnum + (oct%10) * (int) Math.pow(8, i);
+                i++;
+                oct = oct/10;
+            }
+
+            System.out.print("Equivalent Decimal Value of " + orig + " is :\n");
+            System.out.print(decnum);
+        }
+        else
+        {
+            System.out.print("Invalid Entry ....Please give a valid entry");
+        }
+        }
+    }
+

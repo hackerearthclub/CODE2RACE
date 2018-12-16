@@ -162,3 +162,7 @@
 - [kevinrb](https://github.com/kevinrb)
 ---
 
+### Ted Jacobs
+- [tedjacobs](https://github.com/tedjacobs)
+---
+

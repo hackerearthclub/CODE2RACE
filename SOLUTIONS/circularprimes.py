@@ -2,9 +2,7 @@ user_input = int(input())
 
 
 def calculate_n(x):       # I still think its the faster to compute sieve for a one digit higher then to do it other way
-    res = len(str(x))
-    print("1" + ("0" * res))
-    return int("1"+("0"*res))
+    return int("1"+("0"* len(str(x))))
 
 
 n = calculate_n(user_input)

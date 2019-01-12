@@ -21,7 +21,7 @@ def sieve_for_primes_to(n):
 
 
 arr = ([2] + [i*2+1 for i, v in enumerate(sieve_for_primes_to(n+1)) if v and i>0])
-# This array is now a sieve of primes up to the user_input * 10
+# This array is now a sieve of primes up to the len(user_input) + one more digit case 400 its 1000
 
 ansarr = []
 for v in arr:

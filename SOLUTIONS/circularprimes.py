@@ -52,5 +52,5 @@ for v in arr:
                                                                 # ValueError from search operation so we just catch
                                                                 # and continue
             continue
-print(ansarr)
+# print(ansarr)                 # Added for debugging manually if needed
 print(sum(ansarr))          # we just sum appended nums and print the sum

@@ -23,17 +23,6 @@ def sieve_for_primes_to(n):
 arr = ([2] + [i*2+1 for i, v in enumerate(sieve_for_primes_to(n+1)) if v and i>0])
 # This array is now a sieve of primes up to the user_input * 10
 
-
-def reversed_n(num):
-    v = str(num)
-    ans = ""
-    for x in range(len(v)):
-        ans += v[-1]
-        # print(v[-1:])
-        v = v[:-1]
-    return ans
-
-
 ansarr = []
 for v in arr:
     if v > user_input:          # We are looping up to the user_input limit higher values in arr allow us to check whether
@@ -43,7 +32,8 @@ for v in arr:
         ansarr.append(v)
     else:
         try:
-            reversed = int(reversed_n(v))           # we calculate reversed number by doing string slice
+            reversed = int(str(v)[::-1])           # we calculate reversed number by doing string slice
+            print(reversed)
             if arr.index(reversed) and ansarr.count(v) == 0:    # we check for the reversed num being part of prime nums
                 ansarr.append(v)                                # then we append v
                 if ansarr.count(reversed) == 0:                 # if reversed is not already appended we append

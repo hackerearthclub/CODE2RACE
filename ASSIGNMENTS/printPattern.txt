@@ -1,0 +1,1 @@
+Print half pyramid, pyramid, inverted pyramid, Pascal's Triangle and Floyd's triangle in C Programming using control statements.

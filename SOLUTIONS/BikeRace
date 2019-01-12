@@ -1,0 +1,68 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define pb push_back
+#define ll long long int
+
+int main()
+{
+	ll t,n,m,l,s,x,y,mn,mx,sumh,suma,mid;
+	vector<ll> h,a;
+	cin>>t;
+	while(t--)
+	{
+		h.clear();
+		a.clear();
+		cin>>n>>m>>l;
+		
+		sumh=suma=0;
+		mx=INT_MAX;
+		for(int i=0;i<n;i++)
+		{
+			cin>>x>>y;
+			h.pb(x);
+			a.pb(y);
+			sumh+=x;
+			suma+=y;
+			mx=min(mx,(ll)ceil(((m-x)*1.0)/y));
+		}
+		mn=(ll)ceil(((m-sumh)*1.0)/suma);
+		if(mn<0)
+		mn=0;
+		
+		if(mx<0)
+		mx=0;
+	
+		//binary search
+		
+		while(mn<=mx)
+		{
+			mid=mn+(mx-mn)/2;
+			sumh=suma=0;
+			for(int i=0;i<n;i++)
+			{
+				ll th,ta;
+				th=h[i]+(a[i]*mid);
+				ta=h[i]+(a[i]*(mid-1));
+				
+				if(th>=l)
+				sumh+=th;
+				
+				if(ta>=l)
+				suma+=ta;
+			}
+			if((sumh>=m)&&(suma<m))
+			break;
+			
+			if(sumh>=m)
+			mx=mid;
+			else
+			mn=mid+1;
+		}
+		cout<<mid<<"\n";
+		
+	}
+
+	
+	return 0;
+	
+}

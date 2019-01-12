@@ -2,6 +2,7 @@
 *Functions: requiredFruitsTable(),count(),size(),OrangeCheck(),appleCheck(),blueberrycheck()
 *Global Variables: sa,ma,la,sb,mb,lb,so,mo,lo,readVal
 '''
+from __future__ import print_function
 import cv2
 import numpy as np
 import time
@@ -162,7 +163,7 @@ def Orangecheck(x):
 
         return fruit
 
-    elif orangeSize == "not detected":
+    # elif orangeSize == "not detected":
 
     return "not detected"
 
@@ -289,7 +290,7 @@ while (True):
 
         for cnt in contours:  # area
             area = cv2.contourArea(cnt)
-            print area
+            print(area)
             fruitSize = size(area)
 
             """
@@ -310,7 +311,7 @@ while (True):
         if WhitePix != 0 and blueberrycheck(hsv) == "not detected" and appleCheck(hsv) == "not detected":
             fruit = "no fruit"
         if fruit in requiredFruitsTable():
-            print fruit
+            print(fruit)
             count(fruit)
 
         cap.release()
@@ -320,21 +321,21 @@ while (True):
     if readValue == "q":
         break
 
-print "no of small apples:" + str(sa)
+print("no of small apples:" + str(sa))
 
-print "no of medium apples:" + str(ma)
+print("no of medium apples:" + str(ma))
 
-print "no of large apples:" + str(la)
+print("no of large apples:" + str(la))
 
-print "no of small blueberry:" + str(sb)
+print("no of small blueberry:" + str(sb))
 
-print "no of medium blueberry:" + str(mb)
+print("no of medium blueberry:" + str(mb))
 
-print "no of large blueberry:" + str(lb)
+print("no of large blueberry:" + str(lb))
 
-print "no of small oranges:" + str(so)
+print("no of small oranges:" + str(so))
 
-print "no of medium oranges:" + str(mo)
+print("no of medium oranges:" + str(mo))
 
-print "no of large oranges:" + str(lo)
+print("no of large oranges:" + str(lo))
 

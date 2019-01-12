@@ -1,0 +1,30 @@
+Empty Bottles
+Annie buys a carton having N bottles.
+But to her surprise as soon as she opens the carton she finds that not all bottles are completely filled.
+She got angry and decided to fill all the bottles using the water of the the less filled bottles and give
+back the empty or half(less than 100%) filled bottles back to the shopkeeper.
+Find out the maximum number of bottles that will be completely filled after this transformation.
+
+Note:- Water can't be transfered from the 100% filled bottles.
+
+Input
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains an integer N.
+The next line contains N integers denoting the height of water filled in the bottles.
+
+Output
+For each test case, print a single line containing a number.
+
+Constraints
+1 = T = 1,000
+1 = N = 10^3
+
+Example Input
+1
+6
+20 40 50 30 90 100
+
+Example Output
+3
+
+Author:- ABHINAV SHARMA

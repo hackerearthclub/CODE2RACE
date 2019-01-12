@@ -1,0 +1,13 @@
+Sum of all nodes in a doubly linked list divisible by a given number K
+Given a doubly linked list containing N nodes and given a number K. The task is to find the sum of all such nodes which are divisible by K.
+
+Examples:
+
+Input: List = 15 <=> 16 <=> 10 <=> 9 <=> 6 <=> 7 <=> 17
+       K = 3
+Output: Sum = 30
+
+Input: List = 5 <=> 3 <=> 6 <=> 8 <=> 4 <=> 1 <=> 2 <=> 9
+       K = 2
+Output: Sum = 20
+Approach: The idea is to traverse the doubly linked list and check the nodes one by one. If a node’s value is divisible by K then add that node value to sum otherwise continue this process while the end of the list is not reached.

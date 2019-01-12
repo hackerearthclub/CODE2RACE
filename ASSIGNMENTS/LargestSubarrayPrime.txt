@@ -1,0 +1,10 @@
+Length of largest sub-array having primes strictly greater than non-primes
+Given an array ‘arr’ of length ‘n’. The task is to find the largest contiguous sub-array having the count of prime numbers strictly greater than the count of non-prime numbers.
+
+Examples:
+
+Input: arr[] = {4, 7, 4, 7, 11, 5, 4, 4, 4, 5}
+Output: 9
+
+Input:  arr[] = { 1, 9, 3, 4, 5, 6, 7, 8 }
+Output: 5

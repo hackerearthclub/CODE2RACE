@@ -1,0 +1,12 @@
+#python 
+n = input("enter the size of array")
+l =[]
+for i in range(0,n+1):
+  l[i] = input("enter element")
+for i in range(0,3):
+  large = l[0]
+  for j in range(0,n+1):
+    if l[i] > large :
+       large = l[i]
+  l.remove(large)
+print("3rd largest element is ",large)

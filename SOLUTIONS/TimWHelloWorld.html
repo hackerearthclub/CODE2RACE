@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Hello World</title>
+			//Import jquery
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+		</head>
+		<body>
+			<script>
+			$(document).ready(function(){
+				
+				/*
+				Create function to write "Hello, World!" to the document. Toggle off, fade in, fade out.
+				*/
+				const helloFadeIn = function(){
+					document.write("<h1 class=\"hello\">Hello, World!</h1>");
+			        $(".hello").toggle();
+			        $(".hello").fadeIn(10000);
+			        $(".hello").fadeOut(10000);
+			    }
+
+			    //Run helloFadeIn function.
+			    helloFadeIn();
+
+			});
+			</script>
+		</body>
+	</html>

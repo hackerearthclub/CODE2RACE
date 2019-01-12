@@ -1,0 +1,50 @@
+import sys
+inorder=0
+while True:
+    try:
+        inorder=input()
+        preorder=input()        
+        l=[]
+        newlist=[]
+        def tree(io,po):
+            if(len(po)!=0):
+                root=po[0]
+                left=tree(io.split(root)[0],po[1:len(io.split(root)[0])+1])        
+                right=tree(io.split(root)[1],po[len(io.split(root)[0])+1:])
+                l.append((root,left,right))
+                return(root)
+            else:
+                return('0')
+        def search(a,b):
+            for x in a:
+                if (x in b):
+                    print(x,end='')
+                else:
+                    print(" ",end='')
+        tree(inorder,preorder)
+        l.reverse()
+        newlist.append(l[0][0])
+        sub=[]
+        status=True
+        temp=False
+        while (status):
+            for i in l :
+                for k in newlist[-1] :
+                    if(i[0]==k):
+                        if(i[1] in inorder and i[1]!=''):
+                            sub.append(i[1])
+                        if(i[2] in inorder and i[2]!=''):
+                            sub.append(i[2])
+                        temp=True
+            newlist.append(sub)    
+            sub=[]
+            if(status!=temp):
+                status=False
+            temp=False
+        newlist.remove([])       
+        for i in newlist:
+            if(i!=[]):
+                search(inorder,i)
+                print()
+    except EOFError:
+        break     

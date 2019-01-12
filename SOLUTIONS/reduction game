@@ -1,0 +1,61 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int compare (const void * a, const void * b)
+{
+    if(*(long long int*)b - *(long long int*)a < 0)
+        return 1;
+    if(*(long long int*)b - *(long long int*)a == 0)
+        return 0;
+    if(*(long long int*)b - *(long long int*)a > 0)
+        return -1;
+}
+
+int main(){
+    long long t, n, k, a[50], i, j, l, sum, temp;
+    scanf("%lld",&t);
+    while(t--){
+        scanf("%lld%lld",&n,&k);
+        sum = 0;
+        for (i=0;i<n;i++){
+            scanf("%lld",&a[i]);
+        }
+        qsort (a, n, sizeof(long long), compare);
+        i=0;
+        j=n-2;
+        while (i < n-3){
+            if (a[i]<=k){
+                sum += a[i++];
+            }
+            else {
+                if (a[i]-k < a[j] - a[j-1] + 1){
+                    a[j] -= a[i]-k;
+                    a[i] = k;
+                    sum += a[i++];
+                }
+                else{
+                    a[i] -= a[j] - a[j-1] + 1;
+                    a[j] = a[j-1] -1;
+                    for (l=j-1;l>i&&a[l]==a[l-1];l--);
+                    temp = a[l];
+                    a[l] = a[j];
+                    a[j] = temp;
+                }
+            }
+        }
+        if (a[i] > k && n>=3){
+            a[j] -= a[i] - k;
+            sum += k;
+        }
+        else if (n>=3){
+            sum += a[i];
+        }
+        if (a[j] > k){
+            sum += k + a[n-1] - a[j] + k;
+        }
+        else {
+            sum += a[j] + a[n-1];
+        }
+        printf("%lld\n",sum);
+    }
+}

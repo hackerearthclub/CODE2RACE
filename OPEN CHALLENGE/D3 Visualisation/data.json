@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "site01",
+      "x": 317.5,
+      "y": 282.5
+    },
+    {
+      "id": "site02",
+      "x": 112,
+      "y": 47
+    },
+    {
+      "id": "site07",
+      "x": 69.5,
+      "y": 287
+    },
+    {
+      "id": "site09",
+      "x": 424.5,
+      "y": 99.5
+    },
+    {
+      "id": "site05",
+      "x": 432,
+      "y": 467
+    },
+    {
+      "id": "site10",
+      "x": 567,
+      "y": 482
+    },
+    {
+      "id": "site03",
+      "x": 592,
+      "y": 164.5
+    },
+    {
+      "id": "site08",
+      "x": 782,
+      "y": 397
+    },
+    {
+      "id": "site04",
+      "x": 829.5,
+      "y": 262
+    },
+    {
+      "id": "site06",
+      "x": 902,
+      "y": 169.5
+    }
+  ],
+  "links": [
+    {"node01": "site01", "node02": "site08", "amount": 170},
+    {"node01": "site01", "node02": "site02", "amount": 300},
+    {"node01": "site01", "node02": "site03", "amount": 70},
+    {"node01": "site01", "node02": "site07", "amount": 50},
+    {"node01": "site01", "node02": "site09", "amount": 210},
+    {"node01": "site01", "node02": "site10", "amount": 350},
+
+    {"node01": "site02", "node02": "site03", "amount": 1000},
+    {"node01": "site02", "node02": "site04", "amount": 530},
+    {"node01": "site02", "node02": "site05", "amount": 610},
+    {"node01": "site02", "node02": "site08", "amount": 70},
+    {"node01": "site02", "node02": "site09", "amount": 80},
+
+    {"node01": "site03", "node02": "site06", "amount": 80},
+    {"node01": "site03", "node02": "site07", "amount": 130},
+    {"node01": "site03", "node02": "site09", "amount": 110},
+    {"node01": "site03", "node02": "site10", "amount": 120},
+    {"node01": "site03", "node02": "site04", "amount": 140},
+
+    {"node01": "site04", "node02": "site01", "amount": 50},
+    {"node01": "site04", "node02": "site05", "amount": 200},
+    {"node01": "site04", "node02": "site07", "amount": 210},
+    {"node01": "site04", "node02": "site09", "amount": 60},
+    {"node01": "site04", "node02": "site10", "amount": 90},
+
+    {"node01": "site05", "node02": "site06", "amount": 110},
+    {"node01": "site05", "node02": "site07", "amount": 150},
+    {"node01": "site05", "node02": "site08", "amount": 100},
+    {"node01": "site05", "node02": "site09", "amount": 130},
+    {"node01": "site05", "node02": "site10", "amount": 140},
+
+    {"node01": "site06", "node02": "site02", "amount": 80},
+    {"node01": "site06", "node02": "site07", "amount": 60},
+    {"node01": "site06", "node02": "site04", "amount": 270},
+    {"node01": "site06", "node02": "site09", "amount": 50},
+    {"node01": "site06", "node02": "site10", "amount": 80}
+  ]
+}

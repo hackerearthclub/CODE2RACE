@@ -1,0 +1,28 @@
+
+The Euler totient function φ(N) is defined as the number of integers between 1 and N (inclusive) which are coprime with N.
+
+You are given N and φ(N). Calculate the prime factorization of N.
+
+Input
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and φ(N).
+Output
+For each test case, print a line containing a single integer K — the number of distinct prime factors of N. Then, print K lines. For each valid i, the i-th of these lines should contain two space-separated integers pi and ei denoting a prime divisor of N and its exponent. Specifically, the following conditions should hold:
+
+N=∏Ki=1peii
+pi<pi+1 for each valid i
+ei>0 for each valid i
+Constraints
+1≤T≤10
+2≤N≤10500
+
+Example Input
+2
+6 2
+8 4
+Example Output
+2
+2 1
+3 1
+1
+2 3

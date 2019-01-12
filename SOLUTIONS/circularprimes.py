@@ -1,5 +1,15 @@
 user_input = int(input())
-n = user_input * 10        # I still think its the faster to compute sieve for a one digit higher then to do it other way
+
+
+def calculate_n(x):       # I still think its the faster to compute sieve for a one digit higher then to do it other way
+    res = len(str(x))
+    print("1" + ("0" * res))
+    return int("1"+("0"*res))
+
+
+n = calculate_n(user_input)
+
+
 def sieve_for_primes_to(n):
     size = n//2
     sieve = [1]*size
@@ -11,8 +21,11 @@ def sieve_for_primes_to(n):
             sieve[i+val::val] = [0]*tmp
     return sieve
 
+
 arr = ([2] + [i*2+1 for i, v in enumerate(sieve_for_primes_to(n+1)) if v and i>0])
 # This array is now a sieve of primes up to the user_input * 10
+
+
 def reversed_n(num):
     v = str(num)
     ans = ""
@@ -21,6 +34,7 @@ def reversed_n(num):
         # print(v[-1:])
         v = v[:-1]
     return ans
+
 
 ansarr = []
 for v in arr:

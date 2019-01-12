@@ -33,7 +33,6 @@ for v in arr:
     else:
         try:
             reversed = int(str(v)[::-1])           # we calculate reversed number by doing string slice
-            print(reversed)
             if arr.index(reversed) and ansarr.count(v) == 0:    # we check for the reversed num being part of prime nums
                 ansarr.append(v)                                # then we append v
                 if ansarr.count(reversed) == 0:                 # if reversed is not already appended we append

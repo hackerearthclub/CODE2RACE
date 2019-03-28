@@ -2,71 +2,71 @@
 
 ### Arjun Mohnot
 - [Arjun009](https://github.com/Arjun009)
-  young developer...
 ---
 ### Shreyansh Saurabh
 - [binaryshrey](https://github.com/binaryshrey)
 ---
-#### Amulya Gaur
+### Amulya Gaur
 - [amulyagaur](https://github.com/amulyagaur)
 ---
-#### Diego Bernal
+### Diego Bernal
 - [diego95root](https://github.com/diego95root)
 ---
 ### Doan Ngoc Huan
 - [dnhuan](https://github.com/dnhuan)
 ---
-#### Alvaro Tinoco
+### Alvaro Tinoco
 - [MrMarble](https://github.com/MrMarble)
 ---
-#### Matteo Veraldi
+### Matteo Veraldi
 - [mattveraldi](https://github.com/mattveraldi)
 ---
-#### Farzan F A
+### Farzan F A
 - [farzanfa](https://github.com/Farzanfa)
 ---
-#### Narender Singh Yadav
+### Narender Singh Yadav
 - [narendersinghyadav](https://github.com/narendersinghyadav)
 ---
-#### Mohammed Faizaan Muzawar
+### Mohammed Faizaan Muzawar
 - [faizaan-mm](https://github.com/faizaan-mm)
 ---
-#### Akshat Aggarwal
+### Akshat Aggarwal
 - [AkshatAggEm](https://github.com/AkshatAggEm)
 ---
-#### GALLERIA
+### GALLERIA
 - [Galleria](https://github.com/Galleria)
 ---
-#### AMAN NIM
+### AMAN NIM
 - [AMAN NIM](https://github.com/AmanNim98)
 ---
 ### Vyshnavy
 - [Vyshnavy](https://github.com/vyshnavy)
 ---
-#### HIMANSHI SINGHAL
+### HIMANSHI SINGHAL
 - [HIMANSHI SINGHAL](https://github.com/himanshisinghal09)
 ---
 ### Annalaura Ianiro
 - [Al1190](https://github.com/al1190)
 ---
-#### uf0h
+### uf0h
 - [uf0h](https://github.com/uf0h)
 ---
-#### Saba Younis
+### Saba Younis
 - [Saba Younis](https://github.com/sabayounis)
-#### Connor Smith
+---
+### Connor Smith
 - [Titdirt](https://github.com/titdirt)
 ---
-#### Idácio Dad
+### Idácio Dad
 - [idacioDad](https://github.com/idacioDad)
 ---
-#### Bec Braughton
+### Bec Braughton
 - [beckton](https://github.com/beckton)
 ---
-##Idácio Dad
+### Idácio Dad
 - [idacioDad](https://github.com/idacioDad)
 ---
-#### Munawar Villan
+### Munawar Villan
 - [mvillan10](https://github.com/mvillan10)
 ---
 ### Tanya Sah
@@ -74,17 +74,20 @@
 ---
 ### Shivam Kumar
 - [shivampkumar](https://github.com/shivampkumar)
+---
 ### Annas Amer
 - [annasamer3](https://github.com/annasamer3)
+---
 ### Amrutha
 - [Amrutha](https://github.com/amrutha3)
 ---
 ### Jonathan Zhang
 - [jonathanzhang53](https://github.com/jonathanzhang53)
+---
 ### Maaruf Dauda
 - [emkayDauda](https://github.com/emkayDauda)
 ---
-#### Pavlina Mitsou
+### Pavlina Mitsou
 - [Pavlmits](https://github.com/Pavlmits)
 ---
 ### Raj Shah

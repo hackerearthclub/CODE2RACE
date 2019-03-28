@@ -1,5 +1,7 @@
 ## Member List
 
+### Praveen Kumar Purushothaman
+- [praveenscience](https://github.com/praveenscience)
 ### Arjun Mohnot
 - [Arjun009](https://github.com/Arjun009)
 ---

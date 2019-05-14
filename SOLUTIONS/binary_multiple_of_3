@@ -1,0 +1,19 @@
+//c program for binary multiple of 3
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+void main()
+{
+ char A[100];
+ int i=0,sum=0;
+ i=0;
+ while(A[i]!='/0')
+  {scanf("%s",A[i])
+  i++;
+  }
+ int sum =0;
+ while(i>=0)
+ { sum += atoi(A[i]) + pow(2,i);
+  i--;
+  }
+  }

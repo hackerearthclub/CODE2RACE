@@ -1,0 +1,37 @@
+Write a program (using functions!) that asks the user for a long string containing multiple words. Print back to the user the same string, except with the words in backwards order. For example, say I type the string:
+
+My name is Michele
+
+Then I would see the string:
+
+Michele is name My
+
+shown back to me.
+
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+string s;
+
+int main()
+{
+	getline( cin, s );
+	string st = "";
+	int i = s.length() - 1;
+	while (i >= 0)
+	{
+		if (s[i] != ' ')
+		{
+			st = s[i] + st;
+		}
+		else
+		{
+			cout << st << ' ';
+			st = "";
+		}
+		-- i;
+	}
+	cout << st;
+}

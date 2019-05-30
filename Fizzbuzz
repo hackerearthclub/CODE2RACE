@@ -1,0 +1,8 @@
+a = int(raw_input("number: "))
+for i in range(a):
+  if(i%3==0):
+      print("fizz")
+  elif(i%5==):
+      print("buzz")
+  else:
+      print(i)

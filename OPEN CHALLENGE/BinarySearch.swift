@@ -2,7 +2,7 @@
 
 import UIKit
 
-let numbers = [1, 2, 4, 6, 8, 9, 11, 13, 16, 17, 20]
+let numbers = [1, 2, 4, 6, 8, 9, 11, 13, 16, 17,25]
 var hundred = [Int]()
 for i in 1...100 {
     hundred.append(i)

@@ -1,0 +1,7 @@
+to reverse a string using python..
+str1=input()
+str_1=str1.split( )
+str_2=str_1[::-1]
+print( .join(str_2))
+    
+

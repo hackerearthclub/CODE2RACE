@@ -1,0 +1,14 @@
+A neon number is a number where the sum of digits of square of the number is equal to the number. The task is to check and print neon numbers in a range.
+
+Examples:
+
+Input : 9
+Output : Neon Number
+Explanation: square is 9*9 = 81 and 
+sum of the digits of the square is 9.
+
+Input :12
+Output : Not a Neon Number
+Explanation: square is 12*12 = 144 and 
+sum of the digits of the square is 9 (1 
++ 4 + 4) which is not equal to 12.

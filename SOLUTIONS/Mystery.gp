@@ -1,3 +1,5 @@
+\\author:cielavenir (https://github.com/cielavenir)
+
 f()={
 	t=input();
 	for(i=1,t,
